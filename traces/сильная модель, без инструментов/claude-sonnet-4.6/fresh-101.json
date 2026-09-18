@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-101",
+  "source": "fresh",
+  "question": "What is the duration of the ceasefire in the 2026 Lebanon war?",
+  "answer": "10-day",
+  "evidence": "April 16 – 2026 Lebanon war: A US-brokered 10-day ceasefire takes effect between Israel and Lebanon, following ambassador-level talks in the White House.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "I don't have reliable information about a \"2026 Lebanon war\" or its ceasefire details. My knowledge has a cutoff, and I cannot verify events that may have occurred in 2026 or find specific details about such a conflict and ceasefire duration.\n\nCould you provide more context, or are you perhaps referring to a different conflict? If this is a recent event, I may not have data on it.\n\nFINAL: I don't have information about a 2026 Lebanon war ceasefire.",
+ "correct": false,
+ "cost": 0.0020759999999999945,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What is the duration of the ceasefire in the 2026 Lebanon war?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have reliable information about a \"2026 Lebanon war\" or its ceasefire details. My knowledge has a cutoff, and I cannot verify events that may have occurred in 2026 or find specific details about such a conflict and ceasefire duration.\n\nCould you provide more context, or are you perhaps referring to a different conflict? If this is a recent event, I may not have data on it.\n\nFINAL: I don't have information about a 2026 Lebanon war ceasefire.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "task": {
+  "id": "guardian-20",
+  "source": "guardian",
+  "question": "What is the name of the restaurant reviewed in Manchester?",
+  "answer": "Bullgogi",
+  "evidence": "Bullgogi is a pleasant, amenable, albeit slightly hollow dining experience. We ate, we paid, we left. There were no desserts. No one noted our departure, as seemingly no robot had alerted them that we were a dine and dash. The drive-thru Costa Coffee-ification of British restaurants continues. Treasure your servers while you have them. You’ll miss them when they’re gone.",
+  "page": "Bullgogi, Manchester M1: ‘Highly decent, amenable, human-free dining’ – restaurant review",
+  "url": "https://www.theguardian.com/food/2026/aug/09/bullgogi-manchester-grace-dent-restaurant-review",
+  "sonnet_answer": "unknown"
+ },
+ "answer": "It seems like you're referring to a specific review, but I don't have enough context to determine which restaurant in Manchester you're asking about. Could you please provide more details, such as:\n\n- The source of the review (a website, magazine, newspaper, etc.)\n- Any other details about the review\n\nThis will help me give you the correct answer!",
+ "correct": false,
+ "cost": 0.0015299999999999758,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What is the name of the restaurant reviewed in Manchester?"
+  },
+  {
+   "role": "assistant",
+   "content": "It seems like you're referring to a specific review, but I don't have enough context to determine which restaurant in Manchester you're asking about. Could you please provide more details, such as:\n\n- The source of the review (a website, magazine, newspaper, etc.)\n- Any other details about the review\n\nThis will help me give you the correct answer!",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

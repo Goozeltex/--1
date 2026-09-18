@@ -1,0 +1,31 @@
+{
+ "task": {
+  "id": "guardian-18",
+  "source": "guardian",
+  "question": "Who is best known as the architect of the no-dickheads policy in sport?",
+  "answer": "Gilbert Enoka",
+  "evidence": "At the end of his time as consultant to the England cricket setup Gilbert Enoka praised Brendon McCullum’s incredible work in healing the culture of his team. Enoka is best known as the architect of the no-dickheads policy in sport. This is basically Doctor Dickhead. Dickheads? He’s not having them.",
+  "page": "Pietersen’s England return is just pure content at a time when cricket needs it | Barney Ronay",
+  "url": "https://www.theguardian.com/sport/2026/sep/15/pietersen-was-the-original-bazball-and-his-return-may-be-just-what-england-need",
+  "sonnet_answer": "Graham Henry (All Blacks coach) is best known as the architect of the 'no dickheads' policy, associated with the New Zealand All Blacks rugby team culture."
+ },
+ "answer": "FINAL: Graham Henry (or more specifically, it's associated with the All Blacks/New Zealand rugby culture, often credited to Graham Henry and Wayne Smith)\n\nLet me reconsider — the \"no dickheads policy\" in the All Blacks is most commonly attributed to **Graham Henry**.\n\nFINAL: Graham Henry",
+ "correct": false,
+ "cost": 0.0014460000000000028,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who is best known as the architect of the no-dickheads policy in sport?"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Graham Henry (or more specifically, it's associated with the All Blacks/New Zealand rugby culture, often credited to Graham Henry and Wayne Smith)\n\nLet me reconsider — the \"no dickheads policy\" in the All Blacks is most commonly attributed to **Graham Henry**.\n\nFINAL: Graham Henry",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

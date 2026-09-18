@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-94",
+  "source": "fresh",
+  "question": "What position did France's Monroe finish at Eurovision 2026 in Austria?",
+  "answer": "11th",
+  "evidence": "16 May – France's Monroe finishes 11th at Eurovision 2026 in Austria with their single \"Regarde!\".",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "I don't have information about Eurovision 2026, as my knowledge cutoff is July 2025 and this event hasn't occurred yet (or the results aren't in my training data).\n\nFINAL: I don't have data on Eurovision 2026 results.",
+ "correct": false,
+ "cost": 0.0012749999999999984,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What position did France's Monroe finish at Eurovision 2026 in Austria?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have information about Eurovision 2026, as my knowledge cutoff is July 2025 and this event hasn't occurred yet (or the results aren't in my training data).\n\nFINAL: I don't have data on Eurovision 2026 results.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

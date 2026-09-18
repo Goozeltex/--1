@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-98",
+  "source": "fresh",
+  "question": "What document was signed by US president Donald Trump and Iranian president Masoud Pezeshkian in June 2026?",
+  "answer": "Islamabad Memorandum",
+  "evidence": "17 June – US president Donald Trump and Iranian president Masoud Pezeshkian sign the Islamabad Memorandum to end the 2026 Iran war, with Trump signing the document during dinner with President Macron at the Palace of Versailles.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "I don't have reliable information about events in June 2026, as my knowledge cutoff is July 2025. I cannot confirm or describe any document that may have been signed between Donald Trump and Masoud Pezeshkian in June 2026.\n\nFINAL: I don't have information about events in June 2026.",
+ "correct": false,
+ "cost": 0.0015479999999999938,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What document was signed by US president Donald Trump and Iranian president Masoud Pezeshkian in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have reliable information about events in June 2026, as my knowledge cutoff is July 2025. I cannot confirm or describe any document that may have been signed between Donald Trump and Masoud Pezeshkian in June 2026.\n\nFINAL: I don't have information about events in June 2026.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

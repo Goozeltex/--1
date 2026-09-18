@@ -1,0 +1,90 @@
+{
+ "task": {
+  "id": "fresh-98",
+  "source": "fresh",
+  "question": "What document was signed by US president Donald Trump and Iranian president Masoud Pezeshkian in June 2026?",
+  "answer": "Islamabad Memorandum",
+  "evidence": "17 June – US president Donald Trump and Iranian president Masoud Pezeshkian sign the Islamabad Memorandum to end the 2026 Iran war, with Trump signing the document during dinner with President Macron at the Palace of Versailles.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "In June 2026, US President Donald Trump and Iranian President Masoud Pezeshkian signed a memorandum of understanding to end the war. \n\nFINAL: memorandum of understanding to end the war",
+ "correct": false,
+ "cost": 0.0005266500000000174,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What document was signed by US president Donald Trump and Iranian president Masoud Pezeshkian in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_P7AQRvk1zI1xVW3WGF66YdZU",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Donald Trump Masoud Pezeshkian June 2026 document signed\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_P7AQRvk1zI1xVW3WGF66YdZU",
+   "content": "[Masoud Pezeshkian] Masoud Pezeshkian (born 29 September 1954) is an Iranian politician and heart surgeon who has served as the ninth president of Iran since 2024. A member of the reformist faction, he is the oldest person to serve in this position, taking office at the age of 69. Born in Mahabad, West Azerbaijan, to an Iranian Azerbaijani and Iranian Kurdish family, Pezeshkian graduated from the Tabriz University of Medical Sciences with a degree in medicine and served as a doctor for Iranian soldiers in the Iran–Iraq War (1980–1988). Pezeshkian served as governor of Piranshahr and Naghadeh counties and his political career began in 1997 when he joined Mohammad Khatami's administration as Deputy Health Minister. He served as Minister of Health and Medical Education from 2001 to 2005. He was elected to the parliament five times representing the Tabriz, Osku and Azarshahr electoral district from 2008 to 2024, and was First Deputy Speaker from 2016 to 2020. Presenting himself as a moderate, he won the 2024 Iranian presidential election against principlist nominee Saeed Jalili. Pezeshkian began his presidency by continuing support for the \"Axis of Resistance\" in the Iran–Israel proxy conflict. His administration defended the October 2024 Iranian missile strikes on Israel in response to Israel's assassinations of Hamas leader Ismail Haniyeh, Hezbollah leader Hassan Nasrallah, and Iranian military officer Abbas Nilforoushan. Pezeshkian hoped to revive the agreement with the United States regarding Iran's nuclear program, in exchange for lifting the international sanctions against it. However, following Israeli strikes in June 2025, tensions escalated into the Twelve-Day War during which an unsuccessful attempt on his life was made. Following the assassination of Ali Khamenei on 28 February 2026, Pezeshkian served ex officio on the Interim Leadership Council. Since then, his civilian government has been heavily sidelined from military and security decisions by the Islamic"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_EVxQKidMFkDvXXyITMBtNALe",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"Masoud Pezeshkian\", \"keywords\": \"document signed Trump\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "call_M3bb8RQfjReXtgYn16mGH3Zc",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"Donald Trump\", \"keywords\": \"document signed Pezeshkian\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_EVxQKidMFkDvXXyITMBtNALe",
+   "content": "On 7 March 2026, Pezeshkian apologized to neighboring countries for retaliatory Iranian missile attacks, stating on state TV that Iran would suspend attacks on regional countries unless they were used as launchpads for strikes against Iran. The statement underscored the limited control exercised by the Iran's leaders over the paramilitary Revolutionary Guard.  Pezeshkian explicitly rejected a demand from U.S. President Donald Trump for Iran's \"unconditional surrender\".\nOn June 17, US President Donald Trump and Pezeshkian signed the memorandum of understanding to end the war, with Trump signing the document during dinner with French President Emmanuel Macron at the Palace of Versailles after the G7 summit.\nPezeshkian is a supporter of the Islamic Revolutionary Guard Corps (IRGC), and has called its current incarnation \"different from the past\". He condemned the declaration of the IRGC as a terrorist organization by the Trump administration in 2019. After the 2019 Iranian shoot-down of an American drone, Pezeshkian called the American government \"terrorist\" and described the IRGC's action to target the drone as \"a strong punch to the mouths of the leaders of criminal America\". In June 2024 during a university meeting and in response to some criticisms, Pezeshkian put on an IRGC uniform, and said that he would wear it again as the IRGC is the \"reason for the country remaining unified\".\nOn 17 January 2025, Pezeshkian and Russian President Vladimir Putin signed the Comprehensive Strategic Partnership Treaty in Moscow, officially entering into force on 2 October 2025.\nPezeshkian emphasizes the rights of ethnic groups such as Azeris, Kurds, and Baluchis and states that the rights of these groups should be protected. He supports the implementation of Article 15 of the Iranian Constitution for all ethnicities. This principle says: \"The official and common language and script of the people of Iran is Persian. Documents, correspondence, official texts and textbooks must be in "
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_M3bb8RQfjReXtgYn16mGH3Zc",
+   "content": "During his first presidency, Trump imposed a travel ban on seven Muslim-majority countries, expanded the Mexico–United States border wall, and enforced a family separation policy on the border. He rolled back environmental and business regulations, signed the Tax Cuts and Jobs Act, and appointed three Supreme Court justices. He withdrew the U.S. from agreements on climate and trade and started a trade war with China. In response to the COVID-19 pandemic in 2020, he downplayed its severity, contradicted health officials, and signed the bipartisan CARES Act. After losing the 2020 presidential election to Joe Biden, Trump refused to concede defeat and attempted to overturn the result, resulting in the January 6 Capitol attack in 2021. He was impeached twice—in 2019 for abuse of power and obstruction of Congress and in 2021 for incitement of insurrection—and acquitted by the Senate both times.\nIn 2023, Trump was found liable in New York state civil cases for sexual abuse and defamation and for business fraud. In May 2024, he was found guilty in a New York state court on 34 counts of falsifying business records, making him the first U.S. president convicted of a felony. After winning the 2024 presidential election against Vice President Kamala Harris, he was given a no-penalty sentence, and two federal felony indictments for retention of classified documents and obstruction of the 2020 election were dismissed without prejudice.\nTrump began his second presidency by initiating mass layoffs of federal workers. He imposed tariffs on nearly all countries at the highest level since the Great Depression and signed the One Big Beautiful Bill Act. His administration's actions—including the targeting of political opponents and civil society, restriction of transgender rights, mass deportation of undocumented immigrants, and extensive use of executive orders—have drawn over 550 lawsuits challenging their legality. In Latin America, he pursued a campaign to attack alleged drug traff"
+  },
+  {
+   "role": "assistant",
+   "content": "In June 2026, US President Donald Trump and Iranian President Masoud Pezeshkian signed a memorandum of understanding to end the war. \n\nFINAL: memorandum of understanding to end the war",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

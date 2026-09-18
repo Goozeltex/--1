@@ -1,0 +1,31 @@
+{
+ "task": {
+  "id": "guardian-12",
+  "source": "guardian",
+  "question": "What is the name of Google's best smaller phone of the year?",
+  "answer": "Pixel 11 Pro",
+  "evidence": "The Pixel 11 Pro packs the best of Google’s hardware and software into a still-pocketable and easy to handle frame, instantly making it a contender for best smaller phone of the year.",
+  "page": "Pixel 11 Pro review: Google’s best pocket camera goes customisable",
+  "url": "https://www.theguardian.com/technology/2026/sep/10/pixel-11-pro-review-googles-best-pocket-camera-goes-customisable",
+  "sonnet_answer": "Google Pixel 9 Pro (the smaller/compact flagship from Google's 2024 Pixel 9 lineup)"
+ },
+ "answer": "I need to know which year you're referring to, as \"of the year\" is ambiguous. However, based on my knowledge up to early 2025:\n\n**Google Pixel 9** is considered Google's standard (smaller) flagship phone for 2024, while the **Pixel 9 Pro** is the premium version. If you're looking for the compact/smaller option, the **Pixel 9 Pro** comes in a smaller form factor compared to the Pixel 9 Pro XL.\n\nCould you clarify which year you mean? That will help me give a more precise answer.\n\nFINAL: Google Pixel 9 Pro",
+ "correct": false,
+ "cost": 0.0025290000000000035,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What is the name of Google's best smaller phone of the year?"
+  },
+  {
+   "role": "assistant",
+   "content": "I need to know which year you're referring to, as \"of the year\" is ambiguous. However, based on my knowledge up to early 2025:\n\n**Google Pixel 9** is considered Google's standard (smaller) flagship phone for 2024, while the **Pixel 9 Pro** is the premium version. If you're looking for the compact/smaller option, the **Pixel 9 Pro** comes in a smaller form factor compared to the Pixel 9 Pro XL.\n\nCould you clarify which year you mean? That will help me give a more precise answer.\n\nFINAL: Google Pixel 9 Pro",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

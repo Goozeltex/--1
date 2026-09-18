@@ -1,0 +1,120 @@
+{
+ "task": {
+  "id": "fresh-22",
+  "source": "fresh",
+  "question": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?",
+  "answer": "Clara and the Below",
+  "evidence": "March 17: The Kickstarter campaign for Amphibia creator Matt Braly's indie animated series Clara and the Below was fully funded within 15 minutes of launching.",
+  "page": "2026 in animation",
+  "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I'm having difficulty finding information about a specific indie animated series by Matt Braly that was fully funded on March 17, 2026. The search results only return information about his known work on Amphibia, Gravity Falls, and Big City Greens. \n\nIt's possible that:\n1. This is a very recent or upcoming project that may not yet be widely documented\n2. The specific date or details might be slightly different\n3. This could be information from a future event (since March 17, 2026 is in the future from the perspective of my training data)\n\nCould you provide any additional details about the project name, the funding platform used (Kickstarter, Indiegogo, etc.), or any other information that might help me locate this series?",
+ "correct": false,
+ "cost": 0.011641000000000012,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about Matt Braly's indie animated series that was fully funded on March 17, 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01TcYqJiPt3C8SKGPKUJtZUP",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Matt Braly animated series funded March 17 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01TcYqJiPt3C8SKGPKUJtZUP",
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens."
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search more specifically for an indie animated series by Matt Braly with funding information.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01FtgUYomuEJnsLUGVLgnj8S",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Matt Braly indie animated series Kickstarter funded 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01FtgUYomuEJnsLUGVLgnj8S",
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens."
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try a different search approach.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01UgRXiyJJ4wdDov2Cn3Z9gf",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"\\\"Matt Braly\\\" animated series crowdfunding March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01UgRXiyJJ4wdDov2Cn3Z9gf",
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens."
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try searching for \"The Owl House\" or other indie projects, as this might be related to a specific project.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01XN4GHJqkTt6z2e9p2hEdcm",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Matt Braly new project 2026 fully funded\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01XN4GHJqkTt6z2e9p2hEdcm",
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens."
+  },
+  {
+   "role": "assistant",
+   "content": "I'm having difficulty finding information about a specific indie animated series by Matt Braly that was fully funded on March 17, 2026. The search results only return information about his known work on Amphibia, Gravity Falls, and Big City Greens. \n\nIt's possible that:\n1. This is a very recent or upcoming project that may not yet be widely documented\n2. The specific date or details might be slightly different\n3. This could be information from a future event (since March 17, 2026 is in the future from the perspective of my training data)\n\nCould you provide any additional details about the project name, the funding platform used (Kickstarter, Indiegogo, etc.), or any other information that might help me locate this series?",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

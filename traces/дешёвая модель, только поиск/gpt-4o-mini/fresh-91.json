@@ -1,0 +1,120 @@
+{
+ "task": {
+  "id": "fresh-91",
+  "source": "fresh",
+  "question": "What was the amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026?",
+  "answer": "₹25,863 crore",
+  "evidence": "5 July – Union Agriculture and Rural Development Minister Shivraj Singh Chouhan releases the first instalment of ₹25,863 crore (US$2.7 billion) to states for the implementation of the VB-G RAM-G scheme.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I couldn't find specific information regarding the amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026. It appears that this information is not readily available in the sources searched. \n\nFINAL: Information not found",
+ "correct": false,
+ "cost": 0.0004963499999999788,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What was the amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_lF1NnKjh4EMtYIw4rHWVUCbL",
+     "function": {
+      "name": "guardian_search",
+      "arguments": "{\"query\":\"Shivraj Singh Chouhan VB-G RAM-G scheme July 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_lF1NnKjh4EMtYIw4rHWVUCbL",
+   "content": "[G Robert Blakey obituary] US attorney and a key figure in the investigations into the assassinations of John F Kennedy and Martin Luther King (https://www.theguardian.com/us-news/2026/may/26/g-robert-blakey-obituary)"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_hq4qdG8GAI70ftywQi7Lpvao",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Shivraj Singh Chouhan VB-G RAM-G scheme amount July 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_hq4qdG8GAI70ftywQi7Lpvao",
+   "content": "[2026 in India] The following is a list of events for the year 2026 in India."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_tD1Q8opU7i4gnbbO3NH8speX",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Shivraj Singh Chouhan RAM-G scheme July 2026 funding amount\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_tD1Q8opU7i4gnbbO3NH8speX",
+   "content": "[2024 Indian general election] General elections were held in India from 19 April to 1 June 2024 in seven phases, to elect all 543 members of the Lok Sabha. Votes were counted and the result was declared on 4 June to form the 18th Lok Sabha. On 7 June 2024, Prime Minister Narendra Modi confirmed the support of 293 MPs to Droupadi Murmu, the president of India. This marked Modi's third term as prime minister and his first time heading a coalition government, with the Telugu Desam Party of Andhra Pradesh and Janata Dal (United) of Bihar emerging as two main allies. More than 968 million people out of a population of 1.4 billion people were eligible to vote, equivalent to 70 percent of the total population. 642 million voters participated in the election; 312 million of these were women, the highest ever participation by women voters. This was the largest-ever election, surpassing the previous election, and lasted 44 days, second only to the 1951–52 Indian general election. The legislative assembly elections in the states of Andhra Pradesh, Arunachal Pradesh, Odisha, and Sikkim were held simultaneously with the general election, along with the by-elections for 25 constituencies in 12 legislative assemblies. Incumbent prime minister Narendra Modi, who completed a second term, ran for a third consecutive term. His Bharatiya Janata Party (BJP) had enjoyed an absolute majority—a minimum of 272 seats—in the 2014 and 2019 elections. The primary opposition was the Indian National Developmental Inclusive Alliance (INDIA), a coalition formed in 2023 by the Indian National Congress (INC) and many regional parties. The election was criticised for lack of action on hate speeches by Modi's BJP, reported electronic voting machine (EVM) malfunctioning, and suppression of political opponents of the BJP. Opinion surveys of mainstream media outlets projected a decisive victory for the BJP and its coalition, the National Democratic Alliance (NDA). However, the BJP won 240 seats, down fro"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_gL5v3ZiRjVqfb9Ml0FEsp3oK",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Shivraj Singh Chouhan VB-G RAM-G scheme July 2026 funding announcement\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_gL5v3ZiRjVqfb9Ml0FEsp3oK",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": "I couldn't find specific information regarding the amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026. It appears that this information is not readily available in the sources searched. \n\nFINAL: Information not found",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

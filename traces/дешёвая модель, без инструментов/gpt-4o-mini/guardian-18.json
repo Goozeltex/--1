@@ -1,0 +1,31 @@
+{
+ "task": {
+  "id": "guardian-18",
+  "source": "guardian",
+  "question": "Who is best known as the architect of the no-dickheads policy in sport?",
+  "answer": "Gilbert Enoka",
+  "evidence": "At the end of his time as consultant to the England cricket setup Gilbert Enoka praised Brendon McCullum’s incredible work in healing the culture of his team. Enoka is best known as the architect of the no-dickheads policy in sport. This is basically Doctor Dickhead. Dickheads? He’s not having them.",
+  "page": "Pietersen’s England return is just pure content at a time when cricket needs it | Barney Ronay",
+  "url": "https://www.theguardian.com/sport/2026/sep/15/pietersen-was-the-original-bazball-and-his-return-may-be-just-what-england-need",
+  "sonnet_answer": "Graham Henry (All Blacks coach) is best known as the architect of the 'no dickheads' policy, associated with the New Zealand All Blacks rugby team culture."
+ },
+ "answer": "The concept of the \"no-dickheads policy\" in sport is best known to have been popularized by Australian rugby coach Bobby Robson. However, it is most commonly associated with Australian cricket coach Darren Lehmann, who used the term during his tenure with the national team. \n\nFINAL: Darren Lehmann",
+ "correct": false,
+ "cost": 5.099999999996774e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who is best known as the architect of the no-dickheads policy in sport?"
+  },
+  {
+   "role": "assistant",
+   "content": "The concept of the \"no-dickheads policy\" in sport is best known to have been popularized by Australian rugby coach Bobby Robson. However, it is most commonly associated with Australian cricket coach Darren Lehmann, who used the term during his tenure with the national team. \n\nFINAL: Darren Lehmann",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

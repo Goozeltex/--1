@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-76",
+  "source": "fresh",
+  "question": "What was the sentence given to former president Yoon Suk Yeol in South Korea in February 2026?",
+  "answer": "life imprisonment",
+  "evidence": "19 February – Former president Yoon Suk Yeol is convicted and sentenced to life imprisonment for insurrection relating to the 2024 South Korean martial law crisis.",
+  "page": "2026 in South Korea",
+  "url": "https://en.wikipedia.org/wiki/2026_in_South_Korea",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Former President Yoon Suk Yeol was sentenced to life imprisonment in February 2026 after being convicted of heading an insurrection and other crimes related to his declaration of martial law. \n\nFINAL: life imprisonment",
+ "correct": true,
+ "cost": 0.0004256999999999733,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What was the sentence given to former president Yoon Suk Yeol in South Korea in February 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Y3gCrNbUqyF5TLYF0i0FitbF",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Yoon Suk Yeol sentence February 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Y3gCrNbUqyF5TLYF0i0FitbF",
+   "content": "[Yoon Suk Yeol] Yoon Suk Yeol (Korean: 윤석열; pronounced [jun sʰʌŋnjʌɭ]; born 18 December 1960) is a South Korean politician who served as the 13th president of South Korea from 2022 until his removal from office in 2025. A member of the People Power Party during his presidency, he had the shortest presidency as an elected leader in the country's democratic history. Yoon previously served as prosecutor general from 2019 to 2021. Yoon is currently serving a life sentence in prison after being convicted of heading an insurrection and other crimes. Born in Seoul, Yoon received his bachelor's and master's degrees in law from Seoul National University. In his capacity as chief of the Seoul Central District Prosecutor's Office, he played a key role in convicting former presidents Park Geun-hye and Lee Myung-bak for corruption and abuse of power. In 2019, President Moon Jae-in appointed Yoon as Prosecutor General of South Korea. Under Yoon's leadership, the Supreme Prosecutor's Office conducted embattled investigations into Cho Kuk, an influential figure in the Moon administration, that led to Cho's resignation as Minister of Justice. Yoon's clashes with the Moon administration prior to his resignation as prosecutor general in 2021 led to his rise as a potential presidential candidate among conservative voters. On 29 June 2021, Yoon announced his candidacy in the 2022 presidential election. He joined the People Power Party (PPP) in July and won its nomination in November. Considered a conservative politician, Yoon ran on a platform promising economic deregulation, opposing feminism, and on measures such as abolishing the Ministry of Gender Equality and Family. He narrowly defeated Democratic Party nominee Lee Jae Myung by less than a percentage point on 9 March 2022 and assumed office as president on 10 May, becoming the first elected president to be born after the end to fighting in the Korean War. During his presidency, Yoon pursued friendlier relations with Japan and the "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_g3lWAuzMN9JehQ7FIssRnwxd",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Yoon Suk Yeol\",\"keywords\":\"sentence, prison February 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_g3lWAuzMN9JehQ7FIssRnwxd",
+   "content": "Yoon Suk Yeol (Korean: 윤석열; pronounced [jun sʰʌŋnjʌɭ]; born 18 December 1960) is a South Korean politician who served as the 13th president of South Korea from 2022 until his removal from office in 2025. A member of the People Power Party during his presidency, he had the shortest presidency as an elected leader in the country's democratic history. Yoon previously served as prosecutor general from 2019 to 2021. Yoon is currently serving a life sentence in prison after being convicted of heading an insurrection and other crimes.\nOn 3 December 2024, Yoon attempted a self-coup by declaring martial law, the first time it had been declared in South Korea since the military dictatorship of Chun Doo-hwan in 1980. He accused members of the National Assembly of supporting North Korea, but lifted martial law after the Assembly passed an emergency motion nullifying the declaration a few hours later. Amid widespread criticism and mass protests, an impeachment motion was introduced against Yoon the next day, though it fell short of the 200 votes needed to pass. Yoon was successfully impeached and suspended from his presidential powers in a second vote ten days later. Yoon subsequently became the first sitting president in South Korean history to face an arrest warrant and, in January 2025, the first to be arrested and incarcerated. On 4 April, the Constitutional Court unanimously upheld Yoon's impeachment by the National Assembly, officially terminating his presidency. Yoon announced his departure from the PPP in May. In February 2026, he was sentenced to life imprisonment over the martial law declaration. Yoon is serving his sentence at Seoul Detention Center and faces ongoing multiple criminal trials in relation to other charges from the martial law declaration and other scandals.\nYoon attended Daegwang Elementary School and Joongrang Middle School, transferring to Chungam Middle School after finishing eighth grade. After graduating from Chungam High School in 1979, he studied"
+  },
+  {
+   "role": "assistant",
+   "content": "Former President Yoon Suk Yeol was sentenced to life imprisonment in February 2026 after being convicted of heading an insurrection and other crimes related to his declaration of martial law. \n\nFINAL: life imprisonment",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

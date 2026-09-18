@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-113",
+  "source": "fresh",
+  "question": "How many job cuts did Statistics Canada announce on January 13, 2026?",
+  "answer": "850",
+  "evidence": "January 13 – Statistics Canada announces 850 job cuts, with over 100 to happen in the following days.",
+  "page": "2026 in Canada",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Let me think about this. January 13, 2026 is in the future relative to my knowledge cutoff, so I don't have information about events that occurred on that date.\n\nFINAL: I don't have information about that event.",
+ "correct": false,
+ "cost": 0.0012030000000000096,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "How many job cuts did Statistics Canada announce on January 13, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me think about this. January 13, 2026 is in the future relative to my knowledge cutoff, so I don't have information about events that occurred on that date.\n\nFINAL: I don't have information about that event.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

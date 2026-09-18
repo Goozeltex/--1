@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-45",
+  "source": "fresh",
+  "question": "What type of aircraft crashed in Yalova Province, Turkey on August 13, 2026?",
+  "answer": "F-16 Fighting Falcon",
+  "evidence": "13 August – An F-16 Fighting Falcon of the Turkish Air Force crashes in Yalova Province. The pilot ejects safely.",
+  "page": "2026 in Turkey",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I'm unable to provide information about events that occurred after my last training cutoff in October 2023. Therefore, I cannot provide details about the aircraft crash in Yalova Province on August 13, 2026. \n\nFINAL: Unknown event.",
+ "correct": false,
+ "cost": 4.4399999999999995e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What type of aircraft crashed in Yalova Province, Turkey on August 13, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'm unable to provide information about events that occurred after my last training cutoff in October 2023. Therefore, I cannot provide details about the aircraft crash in Yalova Province on August 13, 2026. \n\nFINAL: Unknown event.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

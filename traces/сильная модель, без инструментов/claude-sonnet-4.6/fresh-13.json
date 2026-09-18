@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-13",
+  "source": "fresh",
+  "question": "What is the highest recorded temperature in Germany during the 2026 European heatwaves?",
+  "answer": "41.5 °C",
+  "evidence": "27 June — 2026 European heatwaves: The highest recorded temperature in Germany is taken in Möckern-Drewitz, measuring 41.5 °C (106.7 °F).",
+  "page": "2026 in Germany",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "My knowledge cutoff is early 2025, so I don't have information about events that occurred in 2026, including any European heatwaves or temperature records from that year.\n\nFINAL: I don't have data on 2026 events.",
+ "correct": false,
+ "cost": 0.0012569999999999977,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What is the highest recorded temperature in Germany during the 2026 European heatwaves?"
+  },
+  {
+   "role": "assistant",
+   "content": "My knowledge cutoff is early 2025, so I don't have information about events that occurred in 2026, including any European heatwaves or temperature records from that year.\n\nFINAL: I don't have data on 2026 events.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

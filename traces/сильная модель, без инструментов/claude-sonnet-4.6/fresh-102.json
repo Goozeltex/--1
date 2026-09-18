@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-102",
+  "source": "fresh",
+  "question": "Who was recognized as Hero of Ukraine in 2025?",
+  "answer": "Oleksandr Dovhach",
+  "evidence": "9 March – Oleksandr Dovhach, military pilot, Hero of Ukraine (2025).",
+  "page": "2026 in Ukraine",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "I'll search for information about who was recognized as Hero of Ukraine in 2025.\n\nMy knowledge includes events up to July 2025, but I may not have comprehensive details about all Ukrainian state awards. The Hero of Ukraine is the highest state distinction in Ukraine, awarded by the President.\n\nIn 2025, multiple individuals may have received this honor. One notable case is **Volodymyr Zelensky** awarding the Hero of Ukraine title to various military personnel, commanders, and civilians who distinguished themselves during the ongoing war with Russia.\n\nWithout access to a real-time search tool, I cannot give you a single definitive answer, as this award was likely given to multiple people in 2025. Could you provide more context about what you're looking for — for example, a specific field (military, sports, culture) or a specific person you have in mind?\n\nFINAL: Multiple individuals (primarily military personnel) were recognized as Heroes of Ukraine in 2025, awarded by President Zelensky for distinguished service during the war with Russia.",
+ "correct": false,
+ "cost": 0.0037379999999999913,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who was recognized as Hero of Ukraine in 2025?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about who was recognized as Hero of Ukraine in 2025.\n\nMy knowledge includes events up to July 2025, but I may not have comprehensive details about all Ukrainian state awards. The Hero of Ukraine is the highest state distinction in Ukraine, awarded by the President.\n\nIn 2025, multiple individuals may have received this honor. One notable case is **Volodymyr Zelensky** awarding the Hero of Ukraine title to various military personnel, commanders, and civilians who distinguished themselves during the ongoing war with Russia.\n\nWithout access to a real-time search tool, I cannot give you a single definitive answer, as this award was likely given to multiple people in 2025. Could you provide more context about what you're looking for — for example, a specific field (military, sports, culture) or a specific person you have in mind?\n\nFINAL: Multiple individuals (primarily military personnel) were recognized as Heroes of Ukraine in 2025, awarded by President Zelensky for distinguished service during the war with Russia.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

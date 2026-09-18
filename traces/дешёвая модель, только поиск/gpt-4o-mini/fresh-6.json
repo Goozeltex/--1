@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-6",
+  "source": "fresh",
+  "question": "How many people are reported missing in Tibet after the floods in August 2026?",
+  "answer": "4,500",
+  "evidence": "August 26 – 2026 Nepal–Tibet floods: At least 1,130 people are killed and nearly 4,500 reported missing in Tibet Autonomous Region after a flash flood strikes between Tibet and Nepal.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "According to the reports, hundreds of tourists are among those missing after the flash floods in Tibet in August 2026, although a specific number has not been disclosed. \n\nFINAL: Hundreds of tourists missing.",
+ "correct": false,
+ "cost": 0.00012060000000002624,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "How many people are reported missing in Tibet after the floods in August 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ewBBQzD0aqxhwHrxOA676fl9",
+     "function": {
+      "name": "guardian_search",
+      "arguments": "{\"query\":\"Tibet floods August 2026 missing people\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ewBBQzD0aqxhwHrxOA676fl9",
+   "content": "[Flash floods on Nepal-Tibet border leave scores dead and hundreds missing] At least 157 people dead and hundreds of tourists among missing after roads, bridges and power plants swept away Nepal-Tibet flash floods – live updates (https://www.theguardian.com/world/2026/aug/26/major-casualties-feared-after-flash-floods-along-nepal-tibet-border)"
+  },
+  {
+   "role": "assistant",
+   "content": "According to the reports, hundreds of tourists are among those missing after the flash floods in Tibet in August 2026, although a specific number has not been disclosed. \n\nFINAL: Hundreds of tourists missing.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

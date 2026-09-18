@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-108",
+  "source": "fresh",
+  "question": "Where does a man get killed in a shark attack in June 2026?",
+  "answer": "Michaelmas Island",
+  "evidence": "6 June – A man is killed in a shark attack off Michaelmas Island in Western Australia.",
+  "page": "2026 in Australia",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Australia",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "A man was killed in a shark attack off the coast of Western Australia near Albany, specifically around Michaelmas Island, in June 2026. \n\nFINAL: Western Australia, near Albany, Michaelmas Island",
+ "correct": true,
+ "cost": 0.00012149999999999661,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Where does a man get killed in a shark attack in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_8a1pe1v5kWXTqRfAIDUx0L77",
+     "function": {
+      "name": "guardian_search",
+      "arguments": "{\"query\":\"man killed shark attack June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_8a1pe1v5kWXTqRfAIDUx0L77",
+   "content": "[Man dies after shark attack off Western Australia coast near Albany] Government department says man was in the water around Michaelmas Island, near Albany, when he was bitten by a suspected 4.5-metre shark Get our breaking news email , free app or daily news podcast (https://www.theguardian.com/australia-news/2026/jun/06/man-fighting-for-life-after-being-bitten-by-shark-off-western-australian-coast)"
+  },
+  {
+   "role": "assistant",
+   "content": "A man was killed in a shark attack off the coast of Western Australia near Albany, specifically around Michaelmas Island, in June 2026. \n\nFINAL: Western Australia, near Albany, Michaelmas Island",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

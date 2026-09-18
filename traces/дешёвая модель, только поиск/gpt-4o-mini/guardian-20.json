@@ -1,0 +1,53 @@
+{
+ "task": {
+  "id": "guardian-20",
+  "source": "guardian",
+  "question": "What is the name of the restaurant reviewed in Manchester?",
+  "answer": "Bullgogi",
+  "evidence": "Bullgogi is a pleasant, amenable, albeit slightly hollow dining experience. We ate, we paid, we left. There were no desserts. No one noted our departure, as seemingly no robot had alerted them that we were a dine and dash. The drive-thru Costa Coffee-ification of British restaurants continues. Treasure your servers while you have them. You’ll miss them when they’re gone.",
+  "page": "Bullgogi, Manchester M1: ‘Highly decent, amenable, human-free dining’ – restaurant review",
+  "url": "https://www.theguardian.com/food/2026/aug/09/bullgogi-manchester-grace-dent-restaurant-review",
+  "sonnet_answer": "unknown"
+ },
+ "answer": "The name of the restaurant reviewed in Manchester is \"Lennox.\" \n\nFINAL: Lennox",
+ "correct": false,
+ "cost": 9.779999999998124e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What is the name of the restaurant reviewed in Manchester?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_kCSx0E4iZ0YtFqzWxmcWnfbD",
+     "function": {
+      "name": "guardian_search",
+      "arguments": "{\"query\":\"restaurant review Manchester\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_kCSx0E4iZ0YtFqzWxmcWnfbD",
+   "content": "[Lennox. Manchester: ‘A boot camp of flavours’ – restaurant review] You’ll leave fed, challenged and gastronomically punch-drunk (https://www.theguardian.com/food/2026/jul/26/lennox-manchester-grace-dent-restaurant-review)"
+  },
+  {
+   "role": "assistant",
+   "content": "The name of the restaurant reviewed in Manchester is \"Lennox.\" \n\nFINAL: Lennox",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

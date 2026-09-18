@@ -1,0 +1,31 @@
+{
+ "task": {
+  "id": "guardian-22",
+  "source": "guardian",
+  "question": "What percentage of coaches support the football season switch?",
+  "answer": "70%",
+  "evidence": "Last week, a survey revealed that more than 70% of 29 coaches in Asia’s oldest professional league support a shift from the traditional March to November schedule to one that matches the European format, which starts in late August and has a winter break.",
+  "page": "The Hotspot | South Korea pushes for football season to make winter switch after unbearable summer",
+  "url": "https://www.theguardian.com/sport/2026/sep/14/south-korea-football-season-heat-summer-the-hotspot",
+  "sonnet_answer": "unknown"
+ },
+ "answer": "I don't have specific data about a particular survey or study regarding coaches supporting a football season switch. Could you provide more context about:\n\n1. **Which survey or report** you're referring to?\n2. **Which country or league** (e.g., US college football, NFL, another country)?\n3. **What season switch** is being discussed (e.g., moving to a spring season)?\n\nWith more details, I can try to help you find the answer, or let you know if it's something I have information about.\n\nFINAL: I need more context to answer this question accurately.",
+ "correct": false,
+ "cost": 0.0023219999999999907,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What percentage of coaches support the football season switch?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have specific data about a particular survey or study regarding coaches supporting a football season switch. Could you provide more context about:\n\n1. **Which survey or report** you're referring to?\n2. **Which country or league** (e.g., US college football, NFL, another country)?\n3. **What season switch** is being discussed (e.g., moving to a spring season)?\n\nWith more details, I can try to help you find the answer, or let you know if it's something I have information about.\n\nFINAL: I need more context to answer this question accurately.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-83",
+  "source": "fresh",
+  "question": "What type of device was attempted to be ignited near a Bank of America building in France in March 2026?",
+  "answer": "improvised explosive device",
+  "evidence": "28 March – A man is detained and another is at large after trying to ignite an improvised explosive device near a Bank of America building in Paris.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I need to search for information about this specific incident.\n\nI don't have reliable information about events in March 2026, as my knowledge cutoff is early 2025. I cannot accurately answer this question without risking providing incorrect information.\n\nFINAL: I don't have information about this event from March 2026.",
+ "correct": false,
+ "cost": 0.001463999999999993,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What type of device was attempted to be ignited near a Bank of America building in France in March 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I need to search for information about this specific incident.\n\nI don't have reliable information about events in March 2026, as my knowledge cutoff is early 2025. I cannot accurately answer this question without risking providing incorrect information.\n\nFINAL: I don't have information about this event from March 2026.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

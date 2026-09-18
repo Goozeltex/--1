@@ -1,0 +1,228 @@
+{
+ "task": {
+  "id": "fresh-105",
+  "source": "fresh",
+  "question": "What is the increase in fuel surcharges by Air China and China Southern Airlines in April 2026?",
+  "answer": "¥60–120",
+  "evidence": "2 April – Air China, China Southern Airlines, and its subsidiary XiamenAir increase fuel surcharges by ¥60–120 (US$8.70–17.5) on domestic flights in response to rising oil prices linked to the 2026 Iran war.",
+  "page": "2026 in China",
+  "url": "https://en.wikipedia.org/wiki/2026_in_China",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I apologize, but I'm unable to find specific information about the exact increases in fuel surcharges by Air China and China Southern Airlines in April 2026 through the available search tools. \n\nWhile I can confirm that April 2026 was during a significant global fuel crisis caused by the Iran war and Strait of Hormuz closure, which affected oil prices and airline operations worldwide, the specific surcharge amounts for these two Chinese airlines during that month are not appearing in the search results from The Guardian or Wikipedia.\n\nTo get this information, you might need to:\n1. Check the airlines' official websites or press releases from April 2026\n2. Look at aviation industry news sources that cover Chinese airlines\n3. Search for archived financial reports or announcements from Air China and China Southern Airlines\n\nFINAL: I cannot find the specific fuel surcharge increase amounts for Air China and China Southern Airlines in April 2026 through the available sources.",
+ "correct": false,
+ "cost": 0.02865799999999985,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What is the increase in fuel surcharges by Air China and China Southern Airlines in April 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about fuel surcharges by Air China and China Southern Airlines in April 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01KJqx3REfS3ipWUu7cZ8rwv",
+     "function": {
+      "name": "guardian_search",
+      "arguments": "{\"query\": \"Air China China Southern Airlines fuel surcharges April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01KJqx3REfS3ipWUu7cZ8rwv",
+   "content": "[Airlines among companies using fuel surcharges to cover surge in costs, UK survey shows] Firms raising prices at fastest rate in three years, driven by soaring energy and wage bills but also extra materials costs Oil prices fall as Trump hails ‘progress’ on Iran deal (https://www.theguardian.com/business/2026/may/06/airlines-and-companies-using-fuel-surcharges-to-cover-surge-in-costs-uk-survey-shows)"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me read this article to find specific information about Air China and China Southern Airlines:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01WjTN2N8Cp5TSiNjDfHCx99",
+     "function": {
+      "name": "guardian_read",
+      "arguments": "{\"url\": \"https://www.theguardian.com/business/2026/may/06/airlines-and-companies-using-fuel-surcharges-to-cover-surge-in-costs-uk-survey-shows\", \"keywords\": \"Air China China Southern Airlines fuel surcharges April 2026 increase\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01WjTN2N8Cp5TSiNjDfHCx99",
+   "content": "Airlines and other companies are increasingly using fuel surcharges to cover soaring costs, a survey has found, in a further sign of Iran war-linked inflation hitting the economy.\nA poll of companies in the services sector, which includes airlines, found rising fuel prices had contributed to businesses raising prices at the fastest pace in more than three years in April.\nNearly six in 10 firms surveyed by S&P Global said average costs rose last month , mostly driven by fuel and higher wages, but also in part by metals and plastics getting more expensive."
+  },
+  {
+   "role": "assistant",
+   "content": "This article doesn't contain specific information about Air China and China Southern Airlines. Let me search more specifically:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01GLE1xAh1BH7Bk8oZktpE4T",
+     "function": {
+      "name": "guardian_search",
+      "arguments": "{\"query\": \"Air China fuel surcharge April 2026\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_0159xbXMsnYg93pP3yAEt33u",
+     "function": {
+      "name": "guardian_search",
+      "arguments": "{\"query\": \"China Southern Airlines fuel surcharge April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01GLE1xAh1BH7Bk8oZktpE4T",
+   "content": "[Fossil fuel advertising contracts at all-time high in 2026 ] In year of extreme weather, ad agencies found to be building Big Oil’s image as integral to family life and security (https://www.theguardian.com/business/2026/sep/16/fossil-fuel-advertising-contracts-all-time-high)"
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_0159xbXMsnYg93pP3yAEt33u",
+   "content": "[Fossil fuel advertising contracts at all-time high in 2026 ] In year of extreme weather, ad agencies found to be building Big Oil’s image as integral to family life and security (https://www.theguardian.com/business/2026/sep/16/fossil-fuel-advertising-contracts-all-time-high)"
+  },
+  {
+   "role": "assistant",
+   "content": "The Guardian searches are not returning the specific information. Let me try a broader web search for this information:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01BUFvQ6wdv6ZG48ibAB3meE",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Air China China Southern Airlines fuel surcharge increase April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01BUFvQ6wdv6ZG48ibAB3meE",
+   "content": "[2026 Iran war fuel crisis] The 2026 Iran war fuel crisis is a worldwide fuel crisis caused by the war between Iran and the U.S.-Israel coalition. The closure of the Strait of Hormuz, through which over 20% of the world's oil trade passes, and attacks on energy infrastructure in Iran and several Gulf Cooperation Council countries led to a large disruption in global oil supplies. The disruption led to global oil prices rising and caused fuel shortages in countries which imported most of their fuel from the Persian Gulf region. Much of the world has been affected by panic buying and severe disruption to the distribution of petroleum products, liquefied natural gas (LNG), and urea used for fertiliser. The economies of most countries are expected to be adversely affected by the crisis, leading to inflation and heightened risks of stagflation and recession. As of April 2026 there was ongoing concerns about energy security as well as food security, related to fertiliser shortages and costs. Brent prices initially surged to a peak of approximately $118 in late March 2026 before declining to around $70 by July 1, then rebounded to over $100 by late July and fluctuated between $87 and $97 through August. As of early September 2026, price surged up to $109 as renewed attacks on shipping and energy infrastructure reversed earlier gains. By June 2026, the yearly inflation rate is 3.53%, with the consumer price index decreasing by 0.42% and weekly earnings increasing by 0.77% since May 2026. In July, the IMF revised its world GDP growth rate to 3% for 2026 and 3.4% in 2027. According to IMF the effect of the oil supply shock on the world economy is limited due to the AI-driven demand. As of September 2026, the strait closures of Hormuz and Bab al-Mandab, as well as the shutdown of East-West Crude Oil Pipeline on September 11, 2026, resulted in total disruption of 39% of global trade and 31% of global shipments."
+  },
+  {
+   "role": "assistant",
+   "content": "This gives context about the fuel crisis but not specific airline surcharge information. Let me search more specifically for these airlines' announcements:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_018pmku9LeBshgERA4g7kXfP",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Air China fuel surcharge announcement April 2026\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_012yNHtNwgHdqjyq9zeUprEj",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"China Southern Airlines fuel surcharge announcement April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_018pmku9LeBshgERA4g7kXfP",
+   "content": "[2026 Iran war fuel crisis] The 2026 Iran war fuel crisis is a worldwide fuel crisis caused by the war between Iran and the U.S.-Israel coalition. The closure of the Strait of Hormuz, through which over 20% of the world's oil trade passes, and attacks on energy infrastructure in Iran and several Gulf Cooperation Council countries led to a large disruption in global oil supplies. The disruption led to global oil prices rising and caused fuel shortages in countries which imported most of their fuel from the Persian Gulf region. Much of the world has been affected by panic buying and severe disruption to the distribution of petroleum products, liquefied natural gas (LNG), and urea used for fertiliser. The economies of most countries are expected to be adversely affected by the crisis, leading to inflation and heightened risks of stagflation and recession. As of April 2026 there was ongoing concerns about energy security as well as food security, related to fertiliser shortages and costs. Brent prices initially surged to a peak of approximately $118 in late March 2026 before declining to around $70 by July 1, then rebounded to over $100 by late July and fluctuated between $87 and $97 through August. As of early September 2026, price surged up to $109 as renewed attacks on shipping and energy infrastructure reversed earlier gains. By June 2026, the yearly inflation rate is 3.53%, with the consumer price index decreasing by 0.42% and weekly earnings increasing by 0.77% since May 2026. In July, the IMF revised its world GDP growth rate to 3% for 2026 and 3.4% in 2027. According to IMF the effect of the oil supply shock on the world economy is limited due to the AI-driven demand. As of September 2026, the strait closures of Hormuz and Bab al-Mandab, as well as the shutdown of East-West Crude Oil Pipeline on September 11, 2026, resulted in total disruption of 39% of global trade and 31% of global shipments."
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_012yNHtNwgHdqjyq9zeUprEj",
+   "content": "[2026 Iran war fuel crisis] The 2026 Iran war fuel crisis is a worldwide fuel crisis caused by the war between Iran and the U.S.-Israel coalition. The closure of the Strait of Hormuz, through which over 20% of the world's oil trade passes, and attacks on energy infrastructure in Iran and several Gulf Cooperation Council countries led to a large disruption in global oil supplies. The disruption led to global oil prices rising and caused fuel shortages in countries which imported most of their fuel from the Persian Gulf region. Much of the world has been affected by panic buying and severe disruption to the distribution of petroleum products, liquefied natural gas (LNG), and urea used for fertiliser. The economies of most countries are expected to be adversely affected by the crisis, leading to inflation and heightened risks of stagflation and recession. As of April 2026 there was ongoing concerns about energy security as well as food security, related to fertiliser shortages and costs. Brent prices initially surged to a peak of approximately $118 in late March 2026 before declining to around $70 by July 1, then rebounded to over $100 by late July and fluctuated between $87 and $97 through August. As of early September 2026, price surged up to $109 as renewed attacks on shipping and energy infrastructure reversed earlier gains. By June 2026, the yearly inflation rate is 3.53%, with the consumer price index decreasing by 0.42% and weekly earnings increasing by 0.77% since May 2026. In July, the IMF revised its world GDP growth rate to 3% for 2026 and 3.4% in 2027. According to IMF the effect of the oil supply shock on the world economy is limited due to the AI-driven demand. As of September 2026, the strait closures of Hormuz and Bab al-Mandab, as well as the shutdown of East-West Crude Oil Pipeline on September 11, 2026, resulted in total disruption of 39% of global trade and 31% of global shipments."
+  },
+  {
+   "role": "assistant",
+   "content": "I'm getting general information about the fuel crisis but not specific surcharge amounts. Let me try searching for Wikipedia articles about these airlines:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01X3gogvqmCoWeUi7zbMm14B",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Air China\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_01MJmZnduHQnRGH9MjQ2mwTQ",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"China Southern Airlines\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01X3gogvqmCoWeUi7zbMm14B",
+   "content": "[Air China] Air China, officially Air China Limited, (中国国际航空公司, Zhōngguó guójì hángkōng gōngsī) is the flag carrier airline of the People's Republic of China. It is headquartered in Shunyi, Beijing. The airline offers both domestic and international flights to different destinations around China and the world. The airline was established in 1988 after the former Chinese flag carrier CAAC was split into six airlines, one of them being Air China; it later merged with several of the successor airlines. It is 53.46% owned by the state-owned China National Aviation Holding. Air China is one of the three major airlines in the country, along with China Southern Airlines and China Eastern Airlines. Air China's hub airports are in Beijing and Chengdu. In 2017, the airline carried 102 million domestic and international passengers with an average load factor of 81%. The airline joined Star Alliance in 2007."
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01MJmZnduHQnRGH9MjQ2mwTQ",
+   "content": "[China Southern Airlines] China Southern Airlines (branded as China Southern) is a major airline in China, headquartered in Guangzhou, Guangdong. It is one of the three major airlines in the country, along with Air China and China Eastern Airlines. Established on 1 July 1988 following the restructuring of CAAC that acquired and merged several domestic airlines. Since then, the airline became the world's sixth-largest airline measured by passengers carried and Asia's largest airline in fleet size, revenue, and passengers carried. In 2024, it ranked as the world's ninth-largest airline by brand market value. With its main hubs at Guangzhou Baiyun International Airport, Shenzhen Bao'an International Airport and Beijing Daxing International Airport, the airline operates more than 2,000 flights to more than 200 destinations daily and was a member of SkyTeam until 1 January 2019. The airline started a frequent flyer program partnership with American Airlines in March 2019. The logo of the airline consists of a kapok flower (which is also the city flower of Guangzhou) on a blue tail fin. The company slogan is Fly towards your dreams. The airline also operates cargo flights branded under the name China Southern Cargo. The parent company of China Southern Airlines Company Limited is China Southern Air Holding Company, a state-owned enterprise that is supervised by the State-owned Assets Supervision and Administration Commission of the State Council."
+  },
+  {
+   "role": "assistant",
+   "content": "These are general Wikipedia summaries. Let me search for more specific news about fuel surcharge increases in April 2026:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01QnqDa75eNxpVu4f3guUu2j",
+     "function": {
+      "name": "guardian_search",
+      "arguments": "{\"query\": \"Chinese airlines fuel surcharge April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01QnqDa75eNxpVu4f3guUu2j",
+   "content": "[Fossil fuel advertising contracts at all-time high in 2026 ] In year of extreme weather, ad agencies found to be building Big Oil’s image as integral to family life and security (https://www.theguardian.com/business/2026/sep/16/fossil-fuel-advertising-contracts-all-time-high)"
+  },
+  {
+   "role": "assistant",
+   "content": "I apologize, but I'm unable to find specific information about the exact increases in fuel surcharges by Air China and China Southern Airlines in April 2026 through the available search tools. \n\nWhile I can confirm that April 2026 was during a significant global fuel crisis caused by the Iran war and Strait of Hormuz closure, which affected oil prices and airline operations worldwide, the specific surcharge amounts for these two Chinese airlines during that month are not appearing in the search results from The Guardian or Wikipedia.\n\nTo get this information, you might need to:\n1. Check the airlines' official websites or press releases from April 2026\n2. Look at aviation industry news sources that cover Chinese airlines\n3. Search for archived financial reports or announcements from Air China and China Southern Airlines\n\nFINAL: I cannot find the specific fuel surcharge increase amounts for Air China and China Southern Airlines in April 2026 through the available sources.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

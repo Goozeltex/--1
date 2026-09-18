@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-95",
+  "source": "fresh",
+  "question": "Which country won the 2026 Men's T20 World Cup in cricket?",
+  "answer": "India",
+  "evidence": "8 March – India beat New Zealand in the final match and win the 2026 Men's T20 World Cup in cricket.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The 2026 Men's T20 World Cup has not yet taken place as of my knowledge cutoff (early 2025), so I don't have information about its result.\n\nFINAL: The 2026 Men's T20 World Cup had not yet occurred as of my knowledge cutoff.",
+ "correct": false,
+ "cost": 0.0014160000000000006,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Which country won the 2026 Men's T20 World Cup in cricket?"
+  },
+  {
+   "role": "assistant",
+   "content": "The 2026 Men's T20 World Cup has not yet taken place as of my knowledge cutoff (early 2025), so I don't have information about its result.\n\nFINAL: The 2026 Men's T20 World Cup had not yet occurred as of my knowledge cutoff.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

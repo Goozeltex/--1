@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-22",
+  "source": "fresh",
+  "question": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?",
+  "answer": "Clara and the Below",
+  "evidence": "March 17: The Kickstarter campaign for Amphibia creator Matt Braly's indie animated series Clara and the Below was fully funded within 15 minutes of launching.",
+  "page": "2026 in animation",
+  "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I couldn't find any specific information about an indie animated series created by Matt Braly that was fully funded on March 17, 2026. It seems this information is either not available or incorrect. \n\nFINAL: Unknown series",
+ "correct": false,
+ "cost": 0.00020639999999999548,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_B8tx8ztrylMtW5rOoPFg7IgP",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Matt Braly indie animated series 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_B8tx8ztrylMtW5rOoPFg7IgP",
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_nr3sNLbzXI7137Z9pIV1XvMG",
+     "function": {
+      "name": "guardian_search",
+      "arguments": "{\"query\":\"Matt Braly indie animated series 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_nr3sNLbzXI7137Z9pIV1XvMG",
+   "content": "[The Guardian climate pledge 2026 ] Each year, the Guardian reaffirms its commitment to the environment – both in our reporting and how we operate as a business. From critical tipping points to war in Iran, this is how the last 12 months have looked Support the Guardian’s environment coverage The Guardian climate forum 2026 (https://www.theguardian.com/membership/ng-interactive/2026/aug/28/the-guardian-climate-pledge-2026)"
+  },
+  {
+   "role": "assistant",
+   "content": "I couldn't find any specific information about an indie animated series created by Matt Braly that was fully funded on March 17, 2026. It seems this information is either not available or incorrect. \n\nFINAL: Unknown series",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

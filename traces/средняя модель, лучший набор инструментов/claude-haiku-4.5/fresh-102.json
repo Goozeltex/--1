@@ -1,0 +1,120 @@
+{
+ "task": {
+  "id": "fresh-102",
+  "source": "fresh",
+  "question": "Who was recognized as Hero of Ukraine in 2025?",
+  "answer": "Oleksandr Dovhach",
+  "evidence": "9 March – Oleksandr Dovhach, military pilot, Hero of Ukraine (2025).",
+  "page": "2026 in Ukraine",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "The search results aren't showing specific recipients. Based on the Wikipedia information I found, \"Hero of Ukraine\" is the highest national decoration of Ukraine, but my search tools are not returning specific information about who was recognized with this title in 2025. Without access to current Ukrainian news sources or more recent data, I cannot provide you with the specific individuals who received this honor in 2025.\n\nTo get accurate information about 2025 Hero of Ukraine recipients, I'd recommend checking:\n- The official website of the President of Ukraine\n- Ukrainian news outlets\n- Official government announcements\n\nI apologize that I couldn't provide the specific names you were looking for.",
+ "correct": false,
+ "cost": 0.011437000000000141,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who was recognized as Hero of Ukraine in 2025?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about who was recognized as Hero of Ukraine in 2025.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01CLGPAhYERock5UVu5mC71G",
+     "function": {
+      "name": "guardian_search",
+      "arguments": "{\"query\": \"Hero of Ukraine 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01CLGPAhYERock5UVu5mC71G",
+   "content": "[Sali Hughes on beauty: introducing my hero skincare products of 2025] The many elegant South Korean brands dominated the year, but France’s faultless Mimétique and the reasonably priced The Ordinary also make the cut (https://www.theguardian.com/fashion/2025/dec/03/sali-hughes-on-beauty-south-korea-tops-list-best-skincare-products-2025)"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try a more specific search:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01GgVZZrqYgAfVxNxxh7Nfy7",
+     "function": {
+      "name": "guardian_search",
+      "arguments": "{\"query\": \"Ukraine Hero award 2025 recognition\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01GgVZZrqYgAfVxNxxh7Nfy7",
+   "content": "[Keir Starmer becomes first UK PM to receive France’s Légion d’honneur] Exclusive: Emmanuel Macron honours outgoing prime minister for leadership role in supporting Ukraine (https://www.theguardian.com/politics/2026/jul/14/keir-starmer-legion-dhonneur-france-macron)"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search for more specific information about the Hero of Ukraine title:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_014NfzeWG4iMvJXU6nNVqJih",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Hero of Ukraine 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_014NfzeWG4iMvJXU6nNVqJih",
+   "content": "[Hero of Ukraine] A Hero of Ukraine (abbr. HOU; Ukrainian: Герой України, romanized: Heroi Ukrainy) is the highest national decoration that can be conferred upon an individual citizen by the president of Ukraine. The decoration was created in 1998 by President Leonid Kuchma. As of July 26, 2026, the total number of recipients was no less than 1,328 (of which decrees awarding 1,282 individuals were published, and for at least 46 individuals, the decrees were not made public). The decoration is granted to two classes of recipients: to civilians, the Order of the State (abbr. OS, Ukrainian: Орден Держави, romanized: Orden Derzhavy); and to military recipients, the Order of the Gold Star (abbr. OGS, Орден «Золота Зірка», Orden \"Zolota Zirka\"). The first foreigner awarded the decoration was Belarusian Mykhailo Zhyznevskyi in June 2017."
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search for more recent and specific recipients in 2025:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01QBbbqqx5cBzryZbbqX9HdH",
+     "function": {
+      "name": "guardian_search",
+      "arguments": "{\"query\": \"\\\"Hero of Ukraine\\\" 2025 Zelenskyy awards\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01QBbbqqx5cBzryZbbqX9HdH",
+   "content": "[The Football Daily Christmas Awards 2025] Give the one you love something special: a free subscription to Football Daily. The gift that never starts giving (https://www.theguardian.com/football/2025/dec/17/the-football-daily-christmas-awards-2025)"
+  },
+  {
+   "role": "assistant",
+   "content": "The search results aren't showing specific recipients. Based on the Wikipedia information I found, \"Hero of Ukraine\" is the highest national decoration of Ukraine, but my search tools are not returning specific information about who was recognized with this title in 2025. Without access to current Ukrainian news sources or more recent data, I cannot provide you with the specific individuals who received this honor in 2025.\n\nTo get accurate information about 2025 Hero of Ukraine recipients, I'd recommend checking:\n- The official website of the President of Ukraine\n- Ukrainian news outlets\n- Official government announcements\n\nI apologize that I couldn't provide the specific names you were looking for.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

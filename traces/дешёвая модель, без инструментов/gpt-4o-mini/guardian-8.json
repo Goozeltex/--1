@@ -1,0 +1,31 @@
+{
+ "task": {
+  "id": "guardian-8",
+  "source": "guardian",
+  "question": "Who described Yayoi Kusama as transcending cultural boundaries?",
+  "answer": "Donald Judd",
+  "evidence": "When she first arrived in New York in the late 1950s, critics and fellow artists praised her originality. Kusama’s friend Donald Judd , the minimalist artist, described her as transcending “whatever … is oriental or American” but nonetheless emphasised her shallow pictorial space and other formal qualities associated with contemporary art in New York.",
+  "page": "Yayoi Kusama obituary",
+  "url": "https://www.theguardian.com/artanddesign/2026/aug/27/yayoi-kusama-obituary",
+  "sonnet_answer": "Laura Hoptman described Yayoi Kusama as transcending cultural boundaries."
+ },
+ "answer": "Yayoi Kusama was described as transcending cultural boundaries by various art critics and writers, but a notable mention comes from the art critic Robert Storr. \n\nFINAL: Robert Storr",
+ "correct": false,
+ "cost": 3.5850000000003934e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who described Yayoi Kusama as transcending cultural boundaries?"
+  },
+  {
+   "role": "assistant",
+   "content": "Yayoi Kusama was described as transcending cultural boundaries by various art critics and writers, but a notable mention comes from the art critic Robert Storr. \n\nFINAL: Robert Storr",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

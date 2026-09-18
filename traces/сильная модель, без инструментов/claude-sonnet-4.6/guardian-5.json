@@ -1,0 +1,31 @@
+{
+ "task": {
+  "id": "guardian-5",
+  "source": "guardian",
+  "question": "Who is the head chef at Chez Rose?",
+  "answer": "Mark Catchpole",
+  "evidence": "The day-to-day cooking is in the hands of head chef Mark Catchpole , whose CV takes in Roganic, Attica and The Fat Duck. The menu is a single sheet with a pretty logo, then a list of temptations: wild mushroom persillade with preserved truffle; Orkney scallop with Café de Paris butter; Cornish cod with mussel sauce and samphire; Aylesbury duck breast with black figs; and a T-bone steak for two at £145.",
+  "page": "Chez Rose, London W1: ‘One of the dining highlights of 2026’ – restaurant review",
+  "url": "https://www.theguardian.com/food/2026/aug/02/chez-rose-london-w1-grace-dent-restaurant-review",
+  "sonnet_answer": "unknown"
+ },
+ "answer": "I don't have specific information about a restaurant called \"Chez Rose\" or its head chef. There may be multiple restaurants with that name in different locations.\n\nCould you provide more context, such as the city or country where this restaurant is located? That might help me give you a more accurate answer. Alternatively, I'd recommend checking the restaurant's official website or a platform like Yelp or Google for the most up-to-date information.\n\nFINAL: Unknown",
+ "correct": false,
+ "cost": 0.00190499999999999,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who is the head chef at Chez Rose?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have specific information about a restaurant called \"Chez Rose\" or its head chef. There may be multiple restaurants with that name in different locations.\n\nCould you provide more context, such as the city or country where this restaurant is located? That might help me give you a more accurate answer. Alternatively, I'd recommend checking the restaurant's official website or a platform like Yelp or Google for the most up-to-date information.\n\nFINAL: Unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

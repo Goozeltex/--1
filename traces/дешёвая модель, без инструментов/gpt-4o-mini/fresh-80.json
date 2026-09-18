@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-80",
+  "source": "fresh",
+  "question": "What regulation did the Supreme Court of India stay on January 29, 2026?",
+  "answer": "UGC Equity Regulations, 2026",
+  "evidence": "29 January – The Supreme Court of India stays the implementation of the UGC Equity Regulations, 2026 citing misuse by specific groups.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I do not have access to real-time information or events that occurred after my last training cutoff in October 2023. Therefore, I cannot provide information about any regulation that the Supreme Court of India stayed on January 29, 2026. Please check reliable news sources or official announcements for that information. \n\nFINAL: Невозможно узнать.",
+ "correct": false,
+ "cost": 5.535000000000956e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What regulation did the Supreme Court of India stay on January 29, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I do not have access to real-time information or events that occurred after my last training cutoff in October 2023. Therefore, I cannot provide information about any regulation that the Supreme Court of India stayed on January 29, 2026. Please check reliable news sources or official announcements for that information. \n\nFINAL: Невозможно узнать.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

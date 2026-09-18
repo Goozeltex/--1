@@ -1,0 +1,31 @@
+{
+ "task": {
+  "id": "guardian-19",
+  "source": "guardian",
+  "question": "How many decades has esea contemporary been in existence?",
+  "answer": "four-decade",
+  "evidence": "Zhu believes the four-decade milestone presents an opportunity for reflection, as well as for clarity: who is esea contemporary accountable to, and why does it exist?",
+  "page": "‘The place lost its way. Now that’s changed’: can a Manchester art museum move beyond its troubled past?",
+  "url": "https://www.theguardian.com/artanddesign/2026/sep/11/esea-contemporary-manchester-formerly-centre-of-chinese-contemporary-art",
+  "sonnet_answer": "Nearly 4 decades (founded in 1986 as the Centre for Chinese Contemporary Art, rebranded as ESEA Contemporary in 2021)"
+ },
+ "answer": "I need to find information about ESEA Contemporary and when it was founded.\n\nESEA Contemporary is an arts organization based in Manchester, UK, focused on East and Southeast Asian arts. It was founded in 2000 (originally as the Centre for Chinese Contemporary Art, or CFCCA).\n\nWait, let me reconsider. ESEA Contemporary was rebranded from the Centre for Chinese Contemporary Art (CFCCA). The CFCCA was founded in 1986. It rebranded to ESEA Contemporary in 2021.\n\nFrom 1986 to the present (2024), that would be approximately 3-4 decades (38 years).\n\nFINAL: The organization has been in existence for nearly 4 decades (founded in 1986 as the Centre for Chinese Contemporary Art, rebranded as ESEA Contemporary in 2021).",
+ "correct": false,
+ "cost": 0.003269999999999995,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "How many decades has esea contemporary been in existence?"
+  },
+  {
+   "role": "assistant",
+   "content": "I need to find information about ESEA Contemporary and when it was founded.\n\nESEA Contemporary is an arts organization based in Manchester, UK, focused on East and Southeast Asian arts. It was founded in 2000 (originally as the Centre for Chinese Contemporary Art, or CFCCA).\n\nWait, let me reconsider. ESEA Contemporary was rebranded from the Centre for Chinese Contemporary Art (CFCCA). The CFCCA was founded in 1986. It rebranded to ESEA Contemporary in 2021.\n\nFrom 1986 to the present (2024), that would be approximately 3-4 decades (38 years).\n\nFINAL: The organization has been in existence for nearly 4 decades (founded in 1986 as the Centre for Chinese Contemporary Art, rebranded as ESEA Contemporary in 2021).",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

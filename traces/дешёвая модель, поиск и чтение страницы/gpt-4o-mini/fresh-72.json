@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-72",
+  "source": "fresh",
+  "question": "Who is the Education Minister being demanded to resign by the Cockroach Janta Party in India in 2026?",
+  "answer": "Dharmendra Pradhan",
+  "evidence": "The Cockroach Janta Party organises the Sansad Chalo March demanding the resignation of Education Minister Dharmendra Pradhan over the 2026 NEET controversy.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The Education Minister demanded to resign by the Cockroach Janta Party in India in 2026 is Pradhan. \n\nFINAL: Pradhan",
+ "correct": false,
+ "cost": 0.00030014999999999903,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who is the Education Minister being demanded to resign by the Cockroach Janta Party in India in 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_8eO3VdRswbMFa6UVOPlCEP1C",
+     "function": {
+      "name": "guardian_search",
+      "arguments": "{\"query\":\"Education Minister resign Cockroach Janta Party India 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_8eO3VdRswbMFa6UVOPlCEP1C",
+   "content": "[India’s Cockroach Janta party protest victory signals trouble ahead for Modi] Ally forced to resign, with opposition parties reinvigorated and strongman leader’s grip over media channels rocked (https://www.theguardian.com/world/2026/jul/26/india-cockroach-protest-victory-signals-trouble-ahead-for-narendra-modi)"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_93eIoaOkuD3MZfkjhnxtN6XJ",
+     "function": {
+      "name": "guardian_read",
+      "arguments": "{\"url\":\"https://www.theguardian.com/world/2026/jul/26/india-cockroach-protest-victory-signals-trouble-ahead-for-narendra-modi\",\"keywords\":\"Education Minister\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_93eIoaOkuD3MZfkjhnxtN6XJ",
+   "content": "Even the night before Narendra Modi accepted the resignation of his education minister, India’s prime minister appeared confident that the largest mass uprising to take place in his 12 years in power would do little to rattle his government.\nBut this was more than the loss of a minister, Varshney said, it was also the first time in 12 years that the Modi government had lost control of the political narrative. “This is a repressive government,” he said. “It wants obedience, it wants no critical discussion and it generates fear. But now the climate of fear has collapsed.”\nAnalysts say the resignation of Pradhan could also have implications for Modi’s power over his own cabinet. Pradhan was one of Modi’s most loyal ministers and ideological footsoldiers, and had implemented policies exactly as senior party figures had wanted. He had also helped the BJP win Odisha state for the first time in the general election, bringing in crucial seats."
+  },
+  {
+   "role": "assistant",
+   "content": "The Education Minister demanded to resign by the Cockroach Janta Party in India in 2026 is Pradhan. \n\nFINAL: Pradhan",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

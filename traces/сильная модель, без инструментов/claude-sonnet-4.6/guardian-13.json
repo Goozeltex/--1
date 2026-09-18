@@ -1,0 +1,31 @@
+{
+ "task": {
+  "id": "guardian-13",
+  "source": "guardian",
+  "question": "What is the price of the 'Chinese wellington' dish at Kawan, London W1?",
+  "answer": "£28.90",
+  "evidence": "The menu is split into four sections: For Niece & Nephew, or small plates and sharing dishes, Uncle Roger’s Takes on British Classics, which includes a £28.90 “Chinese wellington” and “fish and chips not inspired by Jamie”, Rice/Noodles and, finally, Happy Ending, a two-dessert selection including £8.90 “sizzling blue milo” dumplings the shade of Sesame Street’s Cookie Monster .",
+  "page": "Kawan, London W1: ‘This dish is bound to work, we think. But it doesn’t. It’s hideous’ – restaurant review | Grace Dent on restaurants",
+  "url": "https://www.theguardian.com/food/2026/jul/12/kawan-london-w1-grace-dent-restaurant-review",
+  "sonnet_answer": "unknown"
+ },
+ "answer": "I don't have access to real-time restaurant menus or current pricing information for Kawan, London W1. My training data may not include the specific current menu prices for this restaurant.\n\nTo find the current price of the 'Chinese wellington' dish at Kawan, I'd recommend:\n1. Visiting their official website\n2. Checking their menu on platforms like OpenTable, Google, or Tripadvisor\n3. Calling the restaurant directly\n\nFINAL: I don't have this information available.",
+ "correct": false,
+ "cost": 0.002114999999999978,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What is the price of the 'Chinese wellington' dish at Kawan, London W1?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have access to real-time restaurant menus or current pricing information for Kawan, London W1. My training data may not include the specific current menu prices for this restaurant.\n\nTo find the current price of the 'Chinese wellington' dish at Kawan, I'd recommend:\n1. Visiting their official website\n2. Checking their menu on platforms like OpenTable, Google, or Tripadvisor\n3. Calling the restaurant directly\n\nFINAL: I don't have this information available.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

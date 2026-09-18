@@ -1,0 +1,31 @@
+{
+ "task": {
+  "id": "guardian-5",
+  "source": "guardian",
+  "question": "Who is the head chef at Chez Rose?",
+  "answer": "Mark Catchpole",
+  "evidence": "The day-to-day cooking is in the hands of head chef Mark Catchpole , whose CV takes in Roganic, Attica and The Fat Duck. The menu is a single sheet with a pretty logo, then a list of temptations: wild mushroom persillade with preserved truffle; Orkney scallop with Café de Paris butter; Cornish cod with mussel sauce and samphire; Aylesbury duck breast with black figs; and a T-bone steak for two at £145.",
+  "page": "Chez Rose, London W1: ‘One of the dining highlights of 2026’ – restaurant review",
+  "url": "https://www.theguardian.com/food/2026/aug/02/chez-rose-london-w1-grace-dent-restaurant-review",
+  "sonnet_answer": "unknown"
+ },
+ "answer": "I'm sorry, but I don't have access to real-time data to provide the current head chef at Chez Rose. You may need to look up recent information online or check the restaurant’s official website or social media platforms for the most accurate answer. \n\nFINAL: Need to check online for current head chef.",
+ "correct": false,
+ "cost": 4.8600000000009747e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who is the head chef at Chez Rose?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'm sorry, but I don't have access to real-time data to provide the current head chef at Chez Rose. You may need to look up recent information online or check the restaurant’s official website or social media platforms for the most accurate answer. \n\nFINAL: Need to check online for current head chef.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

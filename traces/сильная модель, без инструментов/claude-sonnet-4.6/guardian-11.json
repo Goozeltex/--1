@@ -1,0 +1,31 @@
+{
+ "task": {
+  "id": "guardian-11",
+  "source": "guardian",
+  "question": "What is the location of the photography installations for Images Vevey 2026?",
+  "answer": "Lake Geneva",
+  "evidence": "Every two years, on the shores of Lake Geneva at the foot of the Swiss Alps, the town of Vevey transforms its public spaces and buildings with 50 installations of artistic projects from 21 countries, which are free and open to the public. With such a breathtaking natural setting as its backdrop, the photography displayed at Images Vevey has to strike its own particular note of magnificence to hold the gaze.",
+  "page": "We Are Family: photography from Images Vevey 2026 – picture essay",
+  "url": "https://www.theguardian.com/artanddesign/2026/sep/14/we-are-family-photography-from-images-vevey-2026-picture-essay",
+  "sonnet_answer": "Vevey, Switzerland"
+ },
+ "answer": "I don't have specific information about Images Vevey 2026 and the locations of its photography installations. Images Vevey is a biennial photography festival held in Vevey, Switzerland, but details about the 2026 edition's specific installation locations may not be in my training data.\n\nFINAL: Vevey, Switzerland",
+ "correct": false,
+ "cost": 0.0015510000000000246,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What is the location of the photography installations for Images Vevey 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have specific information about Images Vevey 2026 and the locations of its photography installations. Images Vevey is a biennial photography festival held in Vevey, Switzerland, but details about the 2026 edition's specific installation locations may not be in my training data.\n\nFINAL: Vevey, Switzerland",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

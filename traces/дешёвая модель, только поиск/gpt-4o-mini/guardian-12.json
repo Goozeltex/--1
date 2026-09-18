@@ -1,0 +1,53 @@
+{
+ "task": {
+  "id": "guardian-12",
+  "source": "guardian",
+  "question": "What is the name of Google's best smaller phone of the year?",
+  "answer": "Pixel 11 Pro",
+  "evidence": "The Pixel 11 Pro packs the best of Google’s hardware and software into a still-pocketable and easy to handle frame, instantly making it a contender for best smaller phone of the year.",
+  "page": "Pixel 11 Pro review: Google’s best pocket camera goes customisable",
+  "url": "https://www.theguardian.com/technology/2026/sep/10/pixel-11-pro-review-googles-best-pocket-camera-goes-customisable",
+  "sonnet_answer": "Google Pixel 9 Pro (the smaller/compact flagship from Google's 2024 Pixel 9 lineup)"
+ },
+ "answer": "The name of Google's best smaller phone of the year is the Pixel 8. \n\nFINAL: Pixel 8",
+ "correct": false,
+ "cost": 0.0001275000000000026,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What is the name of Google's best smaller phone of the year?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_rD7cHoIwRFcWqZqsYpUX4MGc",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Google best smaller phone 2023\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_rD7cHoIwRFcWqZqsYpUX4MGc",
+   "content": "[Pixel 8] The Pixel 8 and Pixel 8 Pro are a pair of Android-based smartphones designed, developed, and marketed by Google as part of the Google Pixel product line. They serve as the successors to the Pixel 7 and Pixel 7 Pro, respectively. Visually, the phones resemble their respective predecessors, with incremental upgrades to their displays and performance. Powered by the third-generation Google Tensor system-on-chip, Google placed heavy emphasis on their artificial intelligence–powered features, especially in the realm of generative AI and photo editing. The Pixel 8 and Pixel 8 Pro were officially announced on October 4, 2023, at the annual Made by Google event and were released in the United States on October 12. They received generally positive reviews from critics, who praised both the hardware and software despite their modest upgrades. The phones' AI features, Google's historic promise of seven years of software updates, and the Pro model's unconventional inclusion of a temperature sensor received significant attention and was heavily scrutinized, drawing mixed reactions. The mid-range variant Pixel 8a was released in May 2024."
+  },
+  {
+   "role": "assistant",
+   "content": "The name of Google's best smaller phone of the year is the Pixel 8. \n\nFINAL: Pixel 8",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

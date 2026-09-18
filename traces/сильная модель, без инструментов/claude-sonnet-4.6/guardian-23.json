@@ -1,0 +1,31 @@
+{
+ "task": {
+  "id": "guardian-23",
+  "source": "guardian",
+  "question": "What is described as the most important prehistoric trove in Europe?",
+  "answer": "Treasure of Villena",
+  "evidence": "Thieves in Spain have raided the Treasure of Villena – a stunning collection of bronze age gold artefacts that has been described as the most important prehistoric trove in Europe – in the latest high-profile smash-and-grab heist on the continent.",
+  "page": "Bronze age treasure stolen in four-minute Spanish museum heist",
+  "url": "https://www.theguardian.com/culture/2026/aug/27/thieves-steal-bronze-age-treasure-of-villena-in-four-minute-heist",
+  "sonnet_answer": "The caves of Atapuerca in Spain are often described as the most important prehistoric trove in Europe, containing some of the oldest human remains found on the continent."
+ },
+ "answer": "FINAL: The Chauvet Cave (or its paintings/discoveries)",
+ "correct": false,
+ "cost": 0.0006510000000000127,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What is described as the most important prehistoric trove in Europe?"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: The Chauvet Cave (or its paintings/discoveries)",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "task": {
+  "id": "fresh-101",
+  "source": "fresh",
+  "question": "What is the duration of the ceasefire in the 2026 Lebanon war?",
+  "answer": "10-day",
+  "evidence": "April 16 – 2026 Lebanon war: A US-brokered 10-day ceasefire takes effect between Israel and Lebanon, following ambassador-level talks in the White House.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "The duration of the ceasefire in the 2026 Lebanon war was initially established as 10 days, starting from April 16, 2026. It was subsequently extended several times, including a three-week extension announced on April 23, followed by an extension of another 45 days on May 15, and further agreements were made to continue the ceasefire throughout June 2026.\n\nFINAL: Initially 10 days, extended multiple times.",
+ "correct": true,
+ "cost": 0.000603750000000014,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What is the duration of the ceasefire in the 2026 Lebanon war?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_8Vwxk4H7zICcCtjRMol9bgLM",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 Lebanon war ceasefire duration\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_8Vwxk4H7zICcCtjRMol9bgLM",
+   "content": "[January 2025 Gaza war ceasefire] A hostages-and-prisoners exchange and armistice between Israel and Hamas-led Palestinian militant groups in the Gaza Strip took effect from 19 January to 18 March 2025, during the Gaza war. It included eight rounds of hostage-and-prisoner exchanges between Israel and Hamas. The initial proposal included three stages, beginning with a six-week ceasefire and the release of all Israelis and Palestinians by both parties, an end to the war, Israel's withdrawal from the Gaza Strip, and a reconstruction plan. The proposal was first drafted by mediators from the United States, Egypt, and Qatar, accepted by Hamas on 5 May 2024. On 10 June, the UN Security Council supported it as Resolution 2735. Later in 2024, Israeli prime minister Benjamin Netanyahu rejected a permanent ceasefire, while some US officials also accused Hamas of hindering the proposal. President-elect Donald Trump joined President Biden in pressuring Israel to accept a similar proposal. A variation of the proposal was accepted by Israel and Hamas on 15 January 2025. On 17 January, the deal was signed and approved by the Security Cabinet of Israel and later the full Cabinet of Israel. During the first stage, in exchange of the release of 30–50 Palestinians prisoners for every Israeli released, Hamas released 33 hostages. Israel agreed to provide \"intensive and sufficient\" quantities of humanitarian aid, allow displaced Palestinians to return home and begin a phased withdrawal from Gaza. In the second stage, Israel would accept a permanent ceasefire and Hamas would release the remaining living male hostages, both civilians and soldiers, for an exchange of Palestinian prisoners. In the third stage, the remains of deceased Israeli hostages would be released. Under the 5 May proposal, Israel would commit to lifting the blockade on the Gaza Strip, but this commitment was not present in the 31 May proposal. From the beginning of the implementation of the deal, Israel was consistentl"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ZBMs8HqmwA66OLGHXDBbOUL4",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 Lebanon war details\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ZBMs8HqmwA66OLGHXDBbOUL4",
+   "content": "[2026 Iran war] Since 28 February 2026, the United States and Israel have been at war with Iran and its regional allies. Hostilities broke out after US–Israeli airstrikes killed several Iranian officials, including Supreme Leader Ali Khamenei. The strikes were launched amid ongoing US–Iran negotiations regarding Iran's nuclear program. The war is part of a Middle Eastern crisis sparked by the Gaza war. It follows the Twelve-Day War and was preceded by the largest US military buildup in the region since the 2003 invasion of Iraq. US justifications for initiating the war included a response to the crackdown on anti-government protests in Iran, preventing Iran from obtaining a nuclear weapon, regime change, and taking Iran's oil and gas resources. Critics have rejected these justifications, maintaining that the attack initiated a war of aggression, in violation of international law. Following a decentralized strategy, Iranian units responded with a series of missile and drone attacks against Israel and US military bases in the Middle East, US allies in the Middle East, and by blocking the Strait of Hormuz and subsequently claiming sovereignty over it in late March. Following the strikes on their territory, the United Arab Emirates, Saudi Arabia, Kuwait, and Bahrain also attacked Iran and skirmished with its Iraqi non-state allies. Two days after Khamenei's assassination, fighting resumed between Hezbollah and Israel. Israel began occupying southern Lebanon in March. The war has resulted in thousands of civilian and military casualties. The economic impact of the war included the largest supply disruption of the global oil market, disruptions of the natural gas, fertilizer, aviation, and tourism industries, and volatility in financial markets. As of June 2026, the cost of the war to the US was estimated at $113.3 billion, while the Trump administration requested $1.5 trillion for the Pentagon over the next fiscal year, which would set a record in modern US military spen"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_HuDQYm4RZqJGiF6dIktartJ6",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 Lebanon war ceasefire\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_HuDQYm4RZqJGiF6dIktartJ6",
+   "content": "[2026 Israel–Lebanon ceasefire] The 2026 Israel–Lebanon ceasefire is a cessation of hostilities agreed between Israel and Lebanon on 16 April 2026, amid the ongoing 2026 Lebanon war and wider regional conflict linked to the 2026 Iran war. The agreement, brokered by the United States, established a 10-day truce intended to halt active fighting and create conditions for further negotiations toward a longer-term settlement. The ceasefire came into effect shortly after its announcement and marked the first direct diplomatic engagement between Israel and Lebanon in decades. On 17 April, Iran announced that passage of commercial vessels through the Hormuz Strait was completely open during the truce in Lebanon, but closed it again the next day in response to the US refusal to lift its naval blockade. On 23 April, US President Donald Trump announced that Israel and Lebanon agreed to a three-week extension of the ceasefire. On 27 April, Hezbollah leader Naim Qassem stated that the group will not revert to the pre-March status and will respond to Israeli attacks. On 15 May, the truce was extended for another 45 days. On 1 June, Israel and Hezbollah agreed to a ceasefire, with Israel committing not to target Beirut's southern suburbs and Hezbollah vowing not to attack Israel, under a US proposal aiming to extend the ceasefire to all of Lebanon. On 3 June, Israel and Lebanon agreed to renew the ceasefire, mediated by the US, and plan to establish \"pilot zones\". On 4 June, Hezbollah rejected the truce deal announced the previous day and instead demanded a comprehensive truce and full withdrawal of Israel from Lebanon. On 19 June, an American official said that Israel and Hezbollah agreed to a truce mediated by the US, Qatar and Iran. On 26 June, US Secretary of State Marco Rubio announced a framework deal between Israel and Lebanon for \"lasting peace and security\" via US mediation. The agreement includes a cease-fire, requiring Hezbollah to end hostilities and withdraw from sout"
+  },
+  {
+   "role": "assistant",
+   "content": "The duration of the ceasefire in the 2026 Lebanon war was initially established as 10 days, starting from April 16, 2026. It was subsequently extended several times, including a three-week extension announced on April 23, followed by an extension of another 45 days on May 15, and further agreements were made to continue the ceasefire throughout June 2026.\n\nFINAL: Initially 10 days, extended multiple times.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

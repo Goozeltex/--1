@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-111",
+  "source": "fresh",
+  "question": "What position did Keir Starmer resign from on June 22, 2026 in the United Kingdom?",
+  "answer": "prime minister",
+  "evidence": "June 22 – Following months of criticism and pressure, Keir Starmer resigned as prime minister of the United Kingdom. Starmer later resigned his membership as Member of Parliament to assume his role as member of the Chiltern Hundreds on September 1.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Keir Starmer resigned as the leader of the Labour Party on June 22, 2026. \n\nFINAL: leader of the Labour Party",
+ "correct": false,
+ "cost": 0.00019409999999997485,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What position did Keir Starmer resign from on June 22, 2026 in the United Kingdom?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_v7P1CUlosjJMLuys8siDKsK4",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Keir Starmer resignation June 22 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_v7P1CUlosjJMLuys8siDKsK4",
+   "content": "[2026 Labour Party leadership crisis] In 2026, a leadership crisis emerged within the Labour Party amid public and internal party dissatisfaction with Keir Starmer, the prime minister of the United Kingdom, and his government. It led to Starmer announcing his resignation on 22 June; he was replaced by Andy Burnham as leader on 17 July, and as Prime Minister on 20 July. Labour's poor results in the local elections in May 2026 and discontent over policy led to calls for Starmer to resign as leader, and to the resignation of several members of the government, including Health Secretary Wes Streeting on 14 May. Also on 14 May, Josh Simons resigned as the MP for Makerfield to allow Burnham to contest a by-election to be able to stand for leader. On 11 June 2026, following disputes over the government's planned defence spending, Defence Secretary John Healey and Armed Forces minister Al Carns also resigned. Following Burnham's victory in Makerfield and calls for an immediate leadership challenge by Labour MPs, Starmer initially intended to contest a potential leadership challenge, but eventually decided to step down, and announced his resignation on 22 June 2026. Nominations for a leadership election opened on 9 July and closed on 16 July. After all other reported candidates declined to stand, Burnham received nominations from more than 90% of Labour MPs and a sufficient number of party affiliates by 15 July, and was therefore elected unopposed. He became Labour leader on 17 July and Prime Minister on 20 July."
+  },
+  {
+   "role": "assistant",
+   "content": "Keir Starmer resigned as the leader of the Labour Party on June 22, 2026. \n\nFINAL: leader of the Labour Party",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

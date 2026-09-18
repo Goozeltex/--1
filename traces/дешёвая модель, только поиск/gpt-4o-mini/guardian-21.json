@@ -1,0 +1,189 @@
+{
+ "task": {
+  "id": "guardian-21",
+  "source": "guardian",
+  "question": "How many balls did Harry Brook take to reach triple figures?",
+  "answer": "42",
+  "evidence": "Brook cavorted to triple figures off 42 balls, of which precisely a third were dispatched to the boundary, six of them beyond it, and ended unbeaten on 114 as England posted 254. But as much as his power his running impressed, using the size of the ground and manipulation of angles to maximum advantage, aided occasionally by the tourists’ imperfection in the field, as he scurried a succession of twos.",
+  "page": "England thrash Sri Lanka after Harry Brook rejects rest to blast brilliant century",
+  "url": "https://www.theguardian.com/sport/2026/sep/15/england-sri-lanka-first-t20-international-match-report",
+  "sonnet_answer": "Harry Brook reached his triple century (300) off 310 balls during his innings of 317 against Pakistan in Multan in 2024."
+ },
+ "answer": "На данный момент нет информации о том, сколько мячей понадобилось Гарри Бруку для достижения сотни, так как данные о его сотнях не были найдены. Однако известно, что он является одним из наиболее перспективных игроков в тестовом крикете. \n\nFINAL: информация отсутствует",
+ "correct": false,
+ "cost": 0.001271100000000025,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "How many balls did Harry Brook take to reach triple figures?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_9zqQlddCu6uFJNKESg5rlMMB",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Harry Brook triple century balls faced\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_9zqQlddCu6uFJNKESg5rlMMB",
+   "content": "[Harry Brook] Harry Cherrington Brook (born 22 February 1999) is an English international cricketer who plays for England in all three formats of the game and is the Test vice-captain, ODI and T20I captain. Brook plays domestic cricket for Yorkshire. Primarily a right-handed batsman, he also bowls right-arm medium pace. He made his international debut for England in January 2022. He made a prolific start to his test career by amassing 809 runs in his first six test appearances having batted ten times with a career average of 80.90 and with a strike rate of almost 100. Brook was part of the England cricket team that won the 2022 T20 World Cup. In December 2024, he topped the ICC rankings for Test batsmen during England's tour of New Zealand. Harry Brook was named as ICC Men's Player of the Month award twice in December 2022 and February 2023."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_VSBJ48xxcL0PKXZ7WotIr295",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Harry Brook fastest hundred cricket balls faced\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_VSBJ48xxcL0PKXZ7WotIr295",
+   "content": "[Harry Brook] Harry Cherrington Brook (born 22 February 1999) is an English international cricketer who plays for England in all three formats of the game and is the Test vice-captain, ODI and T20I captain. Brook plays domestic cricket for Yorkshire. Primarily a right-handed batsman, he also bowls right-arm medium pace. He made his international debut for England in January 2022. He made a prolific start to his test career by amassing 809 runs in his first six test appearances having batted ten times with a career average of 80.90 and with a strike rate of almost 100. Brook was part of the England cricket team that won the 2022 T20 World Cup. In December 2024, he topped the ICC rankings for Test batsmen during England's tour of New Zealand. Harry Brook was named as ICC Men's Player of the Month award twice in December 2022 and February 2023."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_6KCizb3HI83G21JMeQqZ8zWQ",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Harry Brook fastest century in cricket\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_6KCizb3HI83G21JMeQqZ8zWQ",
+   "content": "[Harry Brook] Harry Cherrington Brook (born 22 February 1999) is an English international cricketer who plays for England in all three formats of the game and is the Test vice-captain, ODI and T20I captain. Brook plays domestic cricket for Yorkshire. Primarily a right-handed batsman, he also bowls right-arm medium pace. He made his international debut for England in January 2022. He made a prolific start to his test career by amassing 809 runs in his first six test appearances having batted ten times with a career average of 80.90 and with a strike rate of almost 100. Brook was part of the England cricket team that won the 2022 T20 World Cup. In December 2024, he topped the ICC rankings for Test batsmen during England's tour of New Zealand. Harry Brook was named as ICC Men's Player of the Month award twice in December 2022 and February 2023."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_P2xe7xKBchGB2MuHNMmFP6jV",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Harry Brook fastest century balls faced\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_P2xe7xKBchGB2MuHNMmFP6jV",
+   "content": "[Harry Brook] Harry Cherrington Brook (born 22 February 1999) is an English international cricketer who plays for England in all three formats of the game and is the Test vice-captain, ODI and T20I captain. Brook plays domestic cricket for Yorkshire. Primarily a right-handed batsman, he also bowls right-arm medium pace. He made his international debut for England in January 2022. He made a prolific start to his test career by amassing 809 runs in his first six test appearances having batted ten times with a career average of 80.90 and with a strike rate of almost 100. Brook was part of the England cricket team that won the 2022 T20 World Cup. In December 2024, he topped the ICC rankings for Test batsmen during England's tour of New Zealand. Harry Brook was named as ICC Men's Player of the Month award twice in December 2022 and February 2023."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_dvs3emvHCbwr9wx6UkdC2pms",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Harry Brook hundred balls\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_dvs3emvHCbwr9wx6UkdC2pms",
+   "content": "[Harry Brook] Harry Cherrington Brook (born 22 February 1999) is an English international cricketer who plays for England in all three formats of the game and is the Test vice-captain, ODI and T20I captain. Brook plays domestic cricket for Yorkshire. Primarily a right-handed batsman, he also bowls right-arm medium pace. He made his international debut for England in January 2022. He made a prolific start to his test career by amassing 809 runs in his first six test appearances having batted ten times with a career average of 80.90 and with a strike rate of almost 100. Brook was part of the England cricket team that won the 2022 T20 World Cup. In December 2024, he topped the ICC rankings for Test batsmen during England's tour of New Zealand. Harry Brook was named as ICC Men's Player of the Month award twice in December 2022 and February 2023."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_xk61efbfrGOw3naWPLJR3sIV",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Harry Brook cricket hundred balls faced\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_xk61efbfrGOw3naWPLJR3sIV",
+   "content": "[Harry Brook] Harry Cherrington Brook (born 22 February 1999) is an English international cricketer who plays for England in all three formats of the game and is the Test vice-captain, ODI and T20I captain. Brook plays domestic cricket for Yorkshire. Primarily a right-handed batsman, he also bowls right-arm medium pace. He made his international debut for England in January 2022. He made a prolific start to his test career by amassing 809 runs in his first six test appearances having batted ten times with a career average of 80.90 and with a strike rate of almost 100. Brook was part of the England cricket team that won the 2022 T20 World Cup. In December 2024, he topped the ICC rankings for Test batsmen during England's tour of New Zealand. Harry Brook was named as ICC Men's Player of the Month award twice in December 2022 and February 2023."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_HxKZrZkASGkBh9tz2UE1NFYS",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Harry Brook fastest century balls taken\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_HxKZrZkASGkBh9tz2UE1NFYS",
+   "content": "[List of Test cricket triple centuries] A triple century (an individual score of 300 runs or more) in Test cricket has been scored on 33 occasions by 29 batsmen from eight of the twelve Test-cricket playing nations. No player from Afghanistan, Bangladesh, Ireland or Zimbabwe has scored 300. A batsman scoring a Test triple century is slightly rarer than a bowler taking a Test hat-trick (33 triple centuries versus 46 hat-tricks as of October 2024). No triple centuries have yet been scored in women's Test cricket."
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "На данный момент нет информации о том, сколько мячей понадобилось Гарри Бруку для достижения сотни, так как данные о его сотнях не были найдены. Однако известно, что он является одним из наиболее перспективных игроков в тестовом крикете. \n\nFINAL: информация отсутствует",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

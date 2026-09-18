@@ -1,0 +1,31 @@
+{
+ "task": {
+  "id": "guardian-9",
+  "source": "guardian",
+  "question": "What was the score of the match between the Red Roses and Australia?",
+  "answer": "48-15",
+  "evidence": "The Red Roses have been regulars on BBC Two in recent years, but the main channel was showing the 1962 film Lawrence of Arabia last Saturday afternoon while the world champions were beating Australia 48-15 at Sale Sharks’ CorpAcq Stadium.",
+  "page": "Sky closes in on broadcast rights for first women’s British & Irish Lions tour",
+  "url": "https://www.theguardian.com/sport/2026/sep/16/womens-rugby-union-sky-broadcast-rights-first-british-irish-lions-tour",
+  "sonnet_answer": "unknown"
+ },
+ "answer": "I don't have specific information about which particular match between the Red Roses (England Women's rugby team) and Australia you're referring to. Could you please provide more context, such as the date or tournament of the match? That way I can give you an accurate answer.\n\nFINAL: I need more context to answer this question accurately.",
+ "correct": false,
+ "cost": 0.001466999999999996,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What was the score of the match between the Red Roses and Australia?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have specific information about which particular match between the Red Roses (England Women's rugby team) and Australia you're referring to. Could you please provide more context, such as the date or tournament of the match? That way I can give you an accurate answer.\n\nFINAL: I need more context to answer this question accurately.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

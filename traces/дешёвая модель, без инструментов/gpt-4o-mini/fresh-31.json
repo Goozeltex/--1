@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-31",
+  "source": "fresh",
+  "question": "Who formed the new government of Kazakhstan after the legislative election on August 23, 2026?",
+  "answer": "Aibek Dädebai",
+  "evidence": "August 23 – The 2026 Kazakh legislative election was held, with Aibek Dädebai of the newly-formed Ädilet forming the new government of Kazakhstan.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I am unable to provide information on events occurring after my last update in October 2023, including the legislative election in Kazakhstan on August 23, 2026. Please consult a current news source for the latest information on this topic. \n\nFINAL: Невозможно предоставить информацию.",
+ "correct": false,
+ "cost": 4.844999999997768e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who formed the new government of Kazakhstan after the legislative election on August 23, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I am unable to provide information on events occurring after my last update in October 2023, including the legislative election in Kazakhstan on August 23, 2026. Please consult a current news source for the latest information on this topic. \n\nFINAL: Невозможно предоставить информацию.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

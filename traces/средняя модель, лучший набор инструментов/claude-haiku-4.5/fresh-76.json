@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-76",
+  "source": "fresh",
+  "question": "What was the sentence given to former president Yoon Suk Yeol in South Korea in February 2026?",
+  "answer": "life imprisonment",
+  "evidence": "19 February – Former president Yoon Suk Yeol is convicted and sentenced to life imprisonment for insurrection relating to the 2024 South Korean martial law crisis.",
+  "page": "2026 in South Korea",
+  "url": "https://en.wikipedia.org/wiki/2026_in_South_Korea",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Life imprisonment with labour for leading an insurrection related to his failed martial law declaration in December 2024.",
+ "correct": true,
+ "cost": 0.00623600000000013,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What was the sentence given to former president Yoon Suk Yeol in South Korea in February 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about the sentence given to former president Yoon Suk Yeol in February 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01R5SH924LhYhkFfnoh2cfGZ",
+     "function": {
+      "name": "guardian_search",
+      "arguments": "{\"query\": \"Yoon Suk Yeol sentence February 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01R5SH924LhYhkFfnoh2cfGZ",
+   "content": "[Why is South Korea angry that Yoon Suk Yeol wasn’t sentenced to death?] The former president was found guilty of leading an insurrection and sentenced to life imprisonment with labour, a punishment that some have called a ‘failure’ (https://www.theguardian.com/world/2026/feb/21/south-korea-anger-yoon-suk-yeol-life-sentence)"
+  },
+  {
+   "role": "assistant",
+   "content": "Now let me read the full article to get more details about the sentence:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01CFpmy989ZRtiLByNtJ83jd",
+     "function": {
+      "name": "guardian_read",
+      "arguments": "{\"url\": \"https://www.theguardian.com/world/2026/feb/21/south-korea-anger-yoon-suk-yeol-life-sentence\", \"keywords\": \"sentence convicted guilty life imprisonment\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01CFpmy989ZRtiLByNtJ83jd",
+   "content": "On Thursday, former president Yoon Suk Yeol was found guilty of leading an insurrection and sentenced to life imprisonment with labour over his failed martial law declaration in December 2024.\nRelated: South Korea’s former president Yoon Suk Yeol jailed for life for leading insurrection\nWhen he received his sentence, hundreds of his opponents cheered outside the court. But the mood quickly shifted to disappointment and anger."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Life imprisonment with labour for leading an insurrection related to his failed martial law declaration in December 2024.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

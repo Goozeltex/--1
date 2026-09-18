@@ -1,0 +1,31 @@
+{
+ "task": {
+  "id": "guardian-21",
+  "source": "guardian",
+  "question": "How many balls did Harry Brook take to reach triple figures?",
+  "answer": "42",
+  "evidence": "Brook cavorted to triple figures off 42 balls, of which precisely a third were dispatched to the boundary, six of them beyond it, and ended unbeaten on 114 as England posted 254. But as much as his power his running impressed, using the size of the ground and manipulation of angles to maximum advantage, aided occasionally by the tourists’ imperfection in the field, as he scurried a succession of twos.",
+  "page": "England thrash Sri Lanka after Harry Brook rejects rest to blast brilliant century",
+  "url": "https://www.theguardian.com/sport/2026/sep/15/england-sri-lanka-first-t20-international-match-report",
+  "sonnet_answer": "Harry Brook reached his triple century (300) off 310 balls during his innings of 317 against Pakistan in Multan in 2024."
+ },
+ "answer": "Harry Brook reached triple figures in 55 balls during the Test match againstNew Zealand at the Basin Reserve in February 2023.\n\nFINAL: 55",
+ "correct": false,
+ "cost": 3.104999999997693e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "How many balls did Harry Brook take to reach triple figures?"
+  },
+  {
+   "role": "assistant",
+   "content": "Harry Brook reached triple figures in 55 balls during the Test match againstNew Zealand at the Basin Reserve in February 2023.\n\nFINAL: 55",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

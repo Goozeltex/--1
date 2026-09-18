@@ -1,0 +1,31 @@
+{
+ "task": {
+  "id": "guardian-21",
+  "source": "guardian",
+  "question": "How many balls did Harry Brook take to reach triple figures?",
+  "answer": "42",
+  "evidence": "Brook cavorted to triple figures off 42 balls, of which precisely a third were dispatched to the boundary, six of them beyond it, and ended unbeaten on 114 as England posted 254. But as much as his power his running impressed, using the size of the ground and manipulation of angles to maximum advantage, aided occasionally by the tourists’ imperfection in the field, as he scurried a succession of twos.",
+  "page": "England thrash Sri Lanka after Harry Brook rejects rest to blast brilliant century",
+  "url": "https://www.theguardian.com/sport/2026/sep/15/england-sri-lanka-first-t20-international-match-report",
+  "sonnet_answer": "Harry Brook reached his triple century (300) off 310 balls during his innings of 317 against Pakistan in Multan in 2024."
+ },
+ "answer": "I need to find information about Harry Brook reaching triple figures (scoring 100+ runs) and how many balls it took.\n\nHarry Brook has scored several centuries. Could you clarify which specific innings you're referring to? However, one of his most notable innings was his Test century against Pakistan or his innings against other teams.\n\nLet me think about his most famous triple-figure score — if this refers to his 317 against Pakistan in Multan (2024), or perhaps a specific century.\n\nIf this is about his **153* against New Zealand** or another specific innings, I'd need more context.\n\nHowever, if you're asking about his **century (100)** in a specific match, one well-known instance is his Test debut century or his century against Pakistan in 2022.\n\nCould you provide more context about which match? Without being certain of the specific match, I don't want to give incorrect information.\n\nIf this refers to his century on Test debut or a specific notable innings, please clarify so I can give you the accurate ball count.\n\nFINAL: I need more context about which specific innings you're referring to.",
+ "correct": false,
+ "cost": 0.0040080000000000116,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "How many balls did Harry Brook take to reach triple figures?"
+  },
+  {
+   "role": "assistant",
+   "content": "I need to find information about Harry Brook reaching triple figures (scoring 100+ runs) and how many balls it took.\n\nHarry Brook has scored several centuries. Could you clarify which specific innings you're referring to? However, one of his most notable innings was his Test century against Pakistan or his innings against other teams.\n\nLet me think about his most famous triple-figure score — if this refers to his 317 against Pakistan in Multan (2024), or perhaps a specific century.\n\nIf this is about his **153* against New Zealand** or another specific innings, I'd need more context.\n\nHowever, if you're asking about his **century (100)** in a specific match, one well-known instance is his Test debut century or his century against Pakistan in 2022.\n\nCould you provide more context about which match? Without being certain of the specific match, I don't want to give incorrect information.\n\nIf this refers to his century on Test debut or a specific notable innings, please clarify so I can give you the accurate ball count.\n\nFINAL: I need more context about which specific innings you're referring to.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

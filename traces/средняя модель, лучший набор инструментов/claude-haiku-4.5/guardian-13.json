@@ -1,0 +1,75 @@
+{
+ "task": {
+  "id": "guardian-13",
+  "source": "guardian",
+  "question": "What is the price of the 'Chinese wellington' dish at Kawan, London W1?",
+  "answer": "£28.90",
+  "evidence": "The menu is split into four sections: For Niece & Nephew, or small plates and sharing dishes, Uncle Roger’s Takes on British Classics, which includes a £28.90 “Chinese wellington” and “fish and chips not inspired by Jamie”, Rice/Noodles and, finally, Happy Ending, a two-dessert selection including £8.90 “sizzling blue milo” dumplings the shade of Sesame Street’s Cookie Monster .",
+  "page": "Kawan, London W1: ‘This dish is bound to work, we think. But it doesn’t. It’s hideous’ – restaurant review | Grace Dent on restaurants",
+  "url": "https://www.theguardian.com/food/2026/jul/12/kawan-london-w1-grace-dent-restaurant-review",
+  "sonnet_answer": "unknown"
+ },
+ "answer": "Perfect! I found the information about the Chinese wellington dish at Kawan in London W1.\n\nFINAL: £28.90",
+ "correct": true,
+ "cost": 0.006629999999999914,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What is the price of the 'Chinese wellington' dish at Kawan, London W1?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about the Kawan restaurant in London and their Chinese wellington dish.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_014a6P9G6pMsqkr2VudoWusa",
+     "function": {
+      "name": "guardian_search",
+      "arguments": "{\"query\": \"Kawan London W1 Chinese wellington price\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_014a6P9G6pMsqkr2VudoWusa",
+   "content": "[Kawan, London W1: ‘This dish is bound to work, we think. But it doesn’t. It’s hideous’ – restaurant review | Grace Dent on restaurants] The meal is like being handed a succession of phones showing memes you don’t understand (https://www.theguardian.com/food/2026/jul/12/kawan-london-w1-grace-dent-restaurant-review)"
+  },
+  {
+   "role": "assistant",
+   "content": "Great! I found a Guardian review of Kawan. Let me read the full article to find the price information for the Chinese wellington dish.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01VLp4ssm6Xrxz27JPQUF3oz",
+     "function": {
+      "name": "guardian_read",
+      "arguments": "{\"url\": \"https://www.theguardian.com/food/2026/jul/12/kawan-london-w1-grace-dent-restaurant-review\", \"keywords\": \"Chinese wellington price cost\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01VLp4ssm6Xrxz27JPQUF3oz",
+   "content": "A couple of months ago, Nigel Ng, the Malaysian comedian better known as his alter ego, Uncle Roger , opened his first UK restaurant in the heart of London’s Chinatown. He’s a man who has built a global YouTube following of more than 10 million subscribers via pithy, endearing videos on how, for example, to make exemplary fried rice, not to mention why Jamie Oliver’s take on that classic dish turns his stomach . Big numbers such as “more than 10 million” make investors very excited, not least because 10 million viewers might potentially equal 10 million bums on seats eating “Chinatown fried rice”, which at Kawan comes with crispy XO chilli and Cantonese lap cheong, and costs £15.90 a bowl. What’s 10 million multiplied by £15.90? OMG! £159,000,000!! Everyone’s a winner. Let’s open a novelty restaurant! It is wonky business logic such as this that has led to Kawan .\nThe menu is split into four sections: For Niece & Nephew, or small plates and sharing dishes, Uncle Roger’s Takes on British Classics, which includes a £28.90 “Chinese wellington” and “fish and chips not inspired by Jamie”, Rice/Noodles and, finally, Happy Ending, a two-dessert selection including £8.90 “sizzling blue milo” dumplings the shade of Sesame Street’s Cookie Monster .\nThe British classics section features references to Uncle Roger’s nemesis, Jamie Oliver, as well as Gordon Ramsay, whom Roger seems a bit in love with. We imagine these will be ingenious takes on traditional dishes. Take those choco-orange ribs. The logic seems sound enough: duck à l’orange proves that citrus can work with strong, meaty dishes, many Asian classics work well with some sweet orange jamminess and chocolate orange is a very specific and sentimental British taste. Winner winner, Uncle Roger’s making dinner. This dish is bound to work. But it doesn’t. It’s hideous. It’s just ribs in a weird, brown sludge that’s neither chocolate nor orange, and more vaguely umami seepage. The wellington is even more peculiar: pastry-wrap"
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! I found the information about the Chinese wellington dish at Kawan in London W1.\n\nFINAL: £28.90",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

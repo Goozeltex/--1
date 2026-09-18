@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-54",
+  "source": "fresh",
+  "question": "How many people were killed in the fire at a shopping mall in Karachi on January 17, 2026?",
+  "answer": "80",
+  "evidence": "January 17 – A fire at a shopping mall in Karachi, Pakistan, kills 80 people.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: 80",
+ "correct": true,
+ "cost": 0.00015959999999998198,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "How many people were killed in the fire at a shopping mall in Karachi on January 17, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_RVPs7uAE91UzkVB0WYyboAAi",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Karachi shopping mall fire January 17 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_RVPs7uAE91UzkVB0WYyboAAi",
+   "content": "[2026 Gul Plaza Shopping Mall fire] On 17 January 2026, a fire at the Gul Plaza shopping mall in Karachi, Pakistan, killed 80 people and injured over 20. The fire started after an unattended child accidentally set some artificial flowers alight with a matchstick in a shop on the ground floor. The fire spread rapidly through an air-conditioning duct to the rest of the building. The shopping mall lacked fire extinguishers or emergency exit lights, and many of the exits were locked. A city-wide emergency was declared shortly after the fire broke out. Firefighters lacked the rescue equipment needed to conduct a rescue operation, such as gas masks or lock cutters, and responded slowly. Some victims were severely burned by firefighting water heated to scalding temperatures by the flames. At the request of the Sindh government, the Sindh High Court appointed Justice Agha Faisal to lead a single-member inquiry into the fire."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: 80",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

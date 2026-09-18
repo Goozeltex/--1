@@ -1,0 +1,119 @@
+{
+ "task": {
+  "id": "guardian-18",
+  "source": "guardian",
+  "question": "Who is best known as the architect of the no-dickheads policy in sport?",
+  "answer": "Gilbert Enoka",
+  "evidence": "At the end of his time as consultant to the England cricket setup Gilbert Enoka praised Brendon McCullum’s incredible work in healing the culture of his team. Enoka is best known as the architect of the no-dickheads policy in sport. This is basically Doctor Dickhead. Dickheads? He’s not having them.",
+  "page": "Pietersen’s England return is just pure content at a time when cricket needs it | Barney Ronay",
+  "url": "https://www.theguardian.com/sport/2026/sep/15/pietersen-was-the-original-bazball-and-his-return-may-be-just-what-england-need",
+  "sonnet_answer": "Graham Henry (All Blacks coach) is best known as the architect of the 'no dickheads' policy, associated with the New Zealand All Blacks rugby team culture."
+ },
+ "answer": "The architect of the no-dickheads policy in sport is Gilbert Enoka. \n\nFINAL: Gilbert Enoka",
+ "correct": true,
+ "cost": 0.00045839999999996994,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who is best known as the architect of the no-dickheads policy in sport?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_voGUIHVzlFWDkxSWssvPpktt",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"no-dickheads policy architect in sport\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_voGUIHVzlFWDkxSWssvPpktt",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_k4jrfNq7BcXnoTQJOOs2h25k",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"No dickheads policy\",\"keywords\":\"architect\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_k4jrfNq7BcXnoTQJOOs2h25k",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_0572nrW8bcS4BmtPkWisYl9u",
+     "function": {
+      "name": "guardian_search",
+      "arguments": "{\"query\":\"no-dickheads policy sport\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_0572nrW8bcS4BmtPkWisYl9u",
+   "content": "[Pietersen’s England return is just pure content at a time when cricket needs it | Barney Ronay] While there’s a statistically significant chance it will all go south, KP’s mentorship could be a throwback to better days (https://www.theguardian.com/sport/2026/sep/15/pietersen-was-the-original-bazball-and-his-return-may-be-just-what-england-need)"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_2auPAVyQZcM91HHO8ULE3bYh",
+     "function": {
+      "name": "guardian_read",
+      "arguments": "{\"url\":\"https://www.theguardian.com/sport/2026/sep/15/pietersen-was-the-original-bazball-and-his-return-may-be-just-what-england-need\",\"keywords\":\"no-dickheads policy\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_2auPAVyQZcM91HHO8ULE3bYh",
+   "content": "At the end of his time as consultant to the England cricket setup Gilbert Enoka praised Brendon McCullum’s incredible work in healing the culture of his team. Enoka is best known as the architect of the no-dickheads policy in sport. This is basically Doctor Dickhead. Dickheads? He’s not having them.\nThe no‑dickheads policy has never made total sense. Who gets to decide what a dickhead is? By everyday measures most elite sports people would probably qualify. Dickheads are good at stuff. There is no gentle, nice, rational way to become this good at doing essentially pointless things with a ball. Obsessive and hypercompetitive? Able to suppress or blindly unleash your deepest emotions? Liking it so far. Put your name down and we’ll have a look."
+  },
+  {
+   "role": "assistant",
+   "content": "The architect of the no-dickheads policy in sport is Gilbert Enoka. \n\nFINAL: Gilbert Enoka",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-22",
+  "source": "fresh",
+  "question": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?",
+  "answer": "Clara and the Below",
+  "evidence": "March 17: The Kickstarter campaign for Amphibia creator Matt Braly's indie animated series Clara and the Below was fully funded within 15 minutes of launching.",
+  "page": "2026 in animation",
+  "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I need to check this fact, as it involves a date (March 17, 2026) that is in the future relative to my knowledge cutoff, and I don't have reliable information about events after early 2025.\n\nI don't have verified information about an indie animated series by Matt Braly that was fully funded on March 17, 2026. This date falls beyond my knowledge cutoff, so I cannot confirm the details of this project.\n\nFINAL: I don't have information about this event from March 17, 2026.",
+ "correct": false,
+ "cost": 0.002235000000000001,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I need to check this fact, as it involves a date (March 17, 2026) that is in the future relative to my knowledge cutoff, and I don't have reliable information about events after early 2025.\n\nI don't have verified information about an indie animated series by Matt Braly that was fully funded on March 17, 2026. This date falls beyond my knowledge cutoff, so I cannot confirm the details of this project.\n\nFINAL: I don't have information about this event from March 17, 2026.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

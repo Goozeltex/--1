@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-114",
+  "source": "fresh",
+  "question": "What type of facility opened in St. John's, Newfoundland and Labrador on January 12, 2026?",
+  "answer": "Urgent Care Centre",
+  "evidence": "January 12 – A new Urgent Care Centre opens in St. John's, Newfoundland and Labrador.",
+  "page": "2026 in Canada",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "К сожалению, у меня нет информации о событиях, произошедших после октября 2023 года. Поэтому я не могу предоставить ответ на этот вопрос. \n\nFINAL: Нет информации.",
+ "correct": false,
+ "cost": 3.67499999999743e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What type of facility opened in St. John's, Newfoundland and Labrador on January 12, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "К сожалению, у меня нет информации о событиях, произошедших после октября 2023 года. Поэтому я не могу предоставить ответ на этот вопрос. \n\nFINAL: Нет информации.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

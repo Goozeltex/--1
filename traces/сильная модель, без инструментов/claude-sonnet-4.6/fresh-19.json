@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-19",
+  "source": "fresh",
+  "question": "In animation, what did Disney Branded Television rebrand itself as on June 15, 2026?",
+  "answer": "Disney Kids & Family",
+  "evidence": "June 15: Disney Branded Television (Parent company of Disney Television Animation) rebrands itself as \"Disney Kids & Family\".",
+  "page": "2026 in animation",
+  "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "I don't have reliable information about events occurring on June 15, 2026, as that date is beyond my knowledge cutoff. I cannot provide a verified answer to this question.\n\nFINAL: I don't know",
+ "correct": false,
+ "cost": 0.001128000000000004,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "In animation, what did Disney Branded Television rebrand itself as on June 15, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have reliable information about events occurring on June 15, 2026, as that date is beyond my knowledge cutoff. I cannot provide a verified answer to this question.\n\nFINAL: I don't know",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

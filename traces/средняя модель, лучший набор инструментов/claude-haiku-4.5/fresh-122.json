@@ -1,0 +1,142 @@
+{
+ "task": {
+  "id": "fresh-122",
+  "source": "fresh",
+  "question": "Who ousted Sussan Ley in February 2026 in Australian politics?",
+  "answer": "Angus Taylor",
+  "evidence": "February 13 – Sussan Ley, the first female leader of the Liberal Party of Australia, was ousted by Angus Taylor.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Angus Taylor ousted Sussan Ley in February 2026, defeating her in a Liberal party leadership ballot with 34 votes to 17.",
+ "correct": true,
+ "cost": 0.014736000000000082,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who ousted Sussan Ley in February 2026 in Australian politics?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about Sussan Ley being ousted in February 2026 in Australian politics.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_017u4BfR7KfSssNQJWJ5oh1Y",
+     "function": {
+      "name": "guardian_search",
+      "arguments": "{\"query\": \"Sussan Ley ousted February 2026 Australian politics\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_017u4BfR7KfSssNQJWJ5oh1Y",
+   "content": "[ABC and the Guardian call on One Nation to reverse media ban amid censorship concerns] News outlets raise alarm after being barred from media events and condemn offensive comments made by party director James Ashby Follow our Australia news live blog for latest updates Get our new political email , free app or daily news podcast (https://www.theguardian.com/australia-news/2026/sep/10/guardian-australia-abc-media-ban-one-nation-pauline-hanson-ntwnfb)"
+  },
+  {
+   "role": "assistant",
+   "content": "The search didn't return the specific information about Sussan Ley in February 2026. Let me try a more direct search.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01HgCwu9UisfMMUGTsvXuDML",
+     "function": {
+      "name": "guardian_search",
+      "arguments": "{\"query\": \"Sussan Ley February 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01HgCwu9UisfMMUGTsvXuDML",
+   "content": "[Sussan Ley is today’s scapegoat - but she was never the Liberals' core problem | Tony Barry] Policies are an expression and extension of a candidate or party’s values. Does the ‘big tent’ party still have any? (https://www.theguardian.com/commentisfree/2026/feb/13/sussan-ley-is-todays-scapegoat-but-she-was-never-the-liberals-core-problem)"
+  },
+  {
+   "role": "assistant",
+   "content": "Good! I found a reference. Let me search more specifically for who ousted her.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_015wWJYfB2XtFZ8eNf4jLvHt",
+     "function": {
+      "name": "guardian_search",
+      "arguments": "{\"query\": \"Sussan Ley replaced Liberal leader 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_015wWJYfB2XtFZ8eNf4jLvHt",
+   "content": "[Sussan Ley had the second shortest tenure as Liberal party leader – One Big Chart] Ley’s term as leader surpassed only that of Alexander Downer. But how does she measure up to other Liberal party leaders? Want to get more charts in your inbox every fortnight? Sign up for The Crunch here (https://www.theguardian.com/news/ng-interactive/2026/feb/13/sussan-ley-had-the-second-shortest-tenure-as-liberal-party-keader-one-big-chart)"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search for who became Liberal leader after Sussan Ley.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01YCt92nghX7WVU1ttbTZ2KA",
+     "function": {
+      "name": "guardian_search",
+      "arguments": "{\"query\": \"Liberal leader February 2026 after Sussan Ley\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01YCt92nghX7WVU1ttbTZ2KA",
+   "content": "[Angus Taylor becomes opposition leader after defeating Sussan Ley in Liberal party leadership ballot] Former shadow defence minister wins partyroom vote, ending Ley’s tumultuous nine-month reign as the first female leader of the Liberals Sussan Ley to quit politics after being deposed as Liberal leader triggering contentious byelection Follow our Australia news live blog for latest updates Get our breaking news email , free app or daily news podcast (https://www.theguardian.com/australia-news/2026/feb/13/angus-taylor-becomes-opposition-leader-after-defeating-sussan-ley-in-liberal-party-leadership-ballot)"
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! I found the answer. Let me read this article to confirm the details.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01PmmYbUAnXDWKiAzP7Q6cUy",
+     "function": {
+      "name": "guardian_read",
+      "arguments": "{\"url\": \"https://www.theguardian.com/australia-news/2026/feb/13/angus-taylor-becomes-opposition-leader-after-defeating-sussan-ley-in-liberal-party-leadership-ballot\", \"keywords\": \"Angus Taylor ousted Sussan Ley defeated\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01PmmYbUAnXDWKiAzP7Q6cUy",
+   "content": "Angus Taylor has been elected the Liberal party’s new leader, ousting Sussan Ley in a partyroom ballot, 34 votes to 17.\nThe stronger than expected victory sees the conservative, former energy minister and shadow defence minister becomes the party’s 17th leader, ending Ley’s nine-month tenure as Australia’s first female opposition leader.\nLey said she would quit parliament within weeks , in a bid to provide clear air for Taylor’s leadership, noting it was “something that’s not always afforded to leaders.”"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Angus Taylor ousted Sussan Ley in February 2026, defeating her in a Liberal party leadership ballot with 34 votes to 17.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

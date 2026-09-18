@@ -1,0 +1,120 @@
+{
+ "task": {
+  "id": "fresh-73",
+  "source": "fresh",
+  "question": "Who was sentenced to two years' imprisonment for bribery in South Korea on August 31, 2026?",
+  "answer": "Han Hak-ja",
+  "evidence": "31 August – A court in Seoul sentences Unification Church leader Han Hak-ja to two years' imprisonment for bribery involving former first lady Kim Keon Hee.",
+  "page": "2026 in South Korea",
+  "url": "https://en.wikipedia.org/wiki/2026_in_South_Korea",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I could not find any specific information on who was sentenced to two years' imprisonment for bribery in South Korea on August 31, 2026. It seems there may not be available details on that event. \n\nFINAL: Information not found.",
+ "correct": false,
+ "cost": 0.00046635000000000426,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who was sentenced to two years' imprisonment for bribery in South Korea on August 31, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_em6WU9OsFY5kLuQT8M9ucZca",
+     "function": {
+      "name": "guardian_search",
+      "arguments": "{\"query\":\"South Korea bribery sentencing August 31, 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_em6WU9OsFY5kLuQT8M9ucZca",
+   "content": "[South Africa 1-0 South Korea: World Cup 2026 – as it happened] Bafana Bafana qualified for the last 32 as Thapelo Maseko hit the only goal in their Group A match against South Korea (https://www.theguardian.com/football/live/2026/jun/24/south-africa-v-south-korea-world-cup-2026-live)"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Ys1RxCPCgNnCPNi8tF1MFoYp",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"bribery sentencing South Korea August 31, 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Ys1RxCPCgNnCPNi8tF1MFoYp",
+   "content": "[2026 in South Korea] Scheduled events in 2026 in South Korea."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_wBcusuVhtGWSXtINniMGGu6w",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"South Korea bribery conviction news August 31 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_wBcusuVhtGWSXtINniMGGu6w",
+   "content": "[Kim Keon Hee] Kim Keon Hee (Korean: 김건희; born Kim Myung-shin; 2 September 1972) is a South Korean businesswoman who served as the first lady of South Korea from 2022 to 2025, as the wife of Yoon Suk Yeol, the 13th president of South Korea. From 2009 to 2022, she was the founder, president and chief executive officer of Covana Contents, an art exhibition company that closed down shortly after her husband took office. Born in Yangpyeong County, Kim graduated from Kyonggi University in 1996. In 2012, she married Yoon Suk Yeol, the then-prosecutor in Supreme Prosecutors' Office. Since the 2022 presidential election, Kim has been the subject of several allegations of misconduct, including bribery, as well as falsification of academic and financial reports. On 28 January 2026, Kim was sentenced to 20 months in prison for bribery, but was acquitted on two other accusations of stock manipulation and political funding law violation with the judge citing a lack of evidence regarding her involvement. However, after she appealed the verdict, on 28 April 2026 the appeals court found her guilty of Stock manipulation, increasing her sentence to four years imprisonment, imposing a fine of 50 million won, the confiscation of her necklace and a forfeit of around 20 million won, overturning the lower court's decision."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ynr8I1PpMnUZAwfIOEAcC9kz",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"who sentenced to two years imprisonment for bribery in South Korea August 31 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ynr8I1PpMnUZAwfIOEAcC9kz",
+   "content": "[2026 in South Korea] Scheduled events in 2026 in South Korea."
+  },
+  {
+   "role": "assistant",
+   "content": "I could not find any specific information on who was sentenced to two years' imprisonment for bribery in South Korea on August 31, 2026. It seems there may not be available details on that event. \n\nFINAL: Information not found.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

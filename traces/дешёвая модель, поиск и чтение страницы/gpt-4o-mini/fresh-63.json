@@ -1,0 +1,98 @@
+{
+ "task": {
+  "id": "fresh-63",
+  "source": "fresh",
+  "question": "How many people were killed in the avalanche near Ratschings in March 2026?",
+  "answer": "Two",
+  "evidence": "21 March – Two people are killed in an avalanche at the Hohe Ferse near Ratschings.",
+  "page": "2026 in Italy",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Italy",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "Two people were killed in the avalanche near Ratschings on March 21, 2026. \n\nFINAL: 2",
+ "correct": false,
+ "cost": 0.00036600000000003297,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "How many people were killed in the avalanche near Ratschings in March 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Ofsu46GxmaBp5h5w0Zpy4o5M",
+     "function": {
+      "name": "guardian_search",
+      "arguments": "{\"query\":\"avalanche near Ratschings March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Ofsu46GxmaBp5h5w0Zpy4o5M",
+   "content": "[The Guardian climate pledge 2026 ] Each year, the Guardian reaffirms its commitment to the environment – both in our reporting and how we operate as a business. From critical tipping points to war in Iran, this is how the last 12 months have looked Support the Guardian’s environment coverage The Guardian climate forum 2026 (https://www.theguardian.com/membership/ng-interactive/2026/aug/28/the-guardian-climate-pledge-2026)"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_xNWFgzLfasK9pmyo4hI2Bcl4",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"avalanche near Ratschings March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_xNWFgzLfasK9pmyo4hI2Bcl4",
+   "content": "[2026 in Italy] The following is a list of events of the year 2026 in Italy."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_c6zZaHTwZ2TEFPpd6DVyLnEG",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in Italy\",\"keywords\":\"avalanche Ratschings killed\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_c6zZaHTwZ2TEFPpd6DVyLnEG",
+   "content": "15 February – Two skiers are killed in an avalanche along the Mont Blanc massif in Courmayeur.\n21 March – Two people are killed in an avalanche at the Hohe Ferse near Ratschings.\n2 June – Four migrant workers from Afghanistan and Pakistan are found killed inside a burnt-out minivan in Calabria."
+  },
+  {
+   "role": "assistant",
+   "content": "Two people were killed in the avalanche near Ratschings on March 21, 2026. \n\nFINAL: 2",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "task": {
+  "id": "fresh-22",
+  "source": "fresh",
+  "question": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?",
+  "answer": "Clara and the Below",
+  "evidence": "March 17: The Kickstarter campaign for Amphibia creator Matt Braly's indie animated series Clara and the Below was fully funded within 15 minutes of launching.",
+  "page": "2026 in animation",
+  "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I could not find any information regarding an indie animated series created by Matt Braly that was fully funded on March 17, 2026. It appears that this information is not publicly available or does not exist. \n\nFINAL: No information available.",
+ "correct": false,
+ "cost": 0.000663899999999995,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_sJPweK45h98ljsRzoC44I5Cy",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Matt Braly indie animated series\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_sJPweK45h98ljsRzoC44I5Cy",
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_npx15BbwJsEsnsd6LGuTVvU6",
+     "function": {
+      "name": "guardian_search",
+      "arguments": "{\"query\":\"Matt Braly indie animated series 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_npx15BbwJsEsnsd6LGuTVvU6",
+   "content": "[The Guardian climate pledge 2026 ] Each year, the Guardian reaffirms its commitment to the environment – both in our reporting and how we operate as a business. From critical tipping points to war in Iran, this is how the last 12 months have looked Support the Guardian’s environment coverage The Guardian climate forum 2026 (https://www.theguardian.com/membership/ng-interactive/2026/aug/28/the-guardian-climate-pledge-2026)"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_VYyvzxtbJEy61TMm9gOkqYsx",
+     "function": {
+      "name": "guardian_search",
+      "arguments": "{\"query\":\"Matt Braly animated series\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_VYyvzxtbJEy61TMm9gOkqYsx",
+   "content": "[Children’s animation series Wolfoo found guilty of copying Peppa Pig] Judge orders removal of all Wolfoo videos from online platforms after finding ‘prolific’ copyright infringement (https://www.theguardian.com/tv-and-radio/2026/jul/29/kids-animation-series-wolfoo-found-guilty-of-copying-peppa-pig)"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_rVoYIAxucm5voMXOxxQeDcdk",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Matt Braly new animated series 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_rVoYIAxucm5voMXOxxQeDcdk",
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_T3dyrS7DiPIf2D4eI5MIzn8u",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Matt Braly animated series funded 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_T3dyrS7DiPIf2D4eI5MIzn8u",
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens."
+  },
+  {
+   "role": "assistant",
+   "content": "I could not find any information regarding an indie animated series created by Matt Braly that was fully funded on March 17, 2026. It appears that this information is not publicly available or does not exist. \n\nFINAL: No information available.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

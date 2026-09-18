@@ -1,0 +1,31 @@
+{
+ "task": {
+  "id": "guardian-2",
+  "source": "guardian",
+  "question": "Who criticized the sports prediction ad for sexualizing women’s sport?",
+  "answer": "Ariarne Titmus",
+  "evidence": "It has been widely criticised for sexualising women’s sport, with retired Olympic swimmer Ariarne Titmus saying she thought this type of “bullshit” marketing was a thing of the past.",
+  "page": "Sydney Sweeney under fire for ‘sexualising women’s sport’ in sports prediction ad ",
+  "url": "https://www.theguardian.com/sport/2026/sep/14/ariarne-titmus-comments-sydney-sweeney-sexualising-womens-sport",
+  "sonnet_answer": "unknown"
+ },
+ "answer": "I don't have specific context about which sports prediction ad you're referring to. Could you provide more details about the advertisement, the company, the sport, or the time period? There have been various controversies over the years involving ads accused of sexualizing women's sport, and I want to make sure I give you the correct answer rather than guess.\n\nFINAL: Insufficient information to determine the specific answer without more context.",
+ "correct": false,
+ "cost": 0.0017340000000000133,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who criticized the sports prediction ad for sexualizing women’s sport?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have specific context about which sports prediction ad you're referring to. Could you provide more details about the advertisement, the company, the sport, or the time period? There have been various controversies over the years involving ads accused of sexualizing women's sport, and I want to make sure I give you the correct answer rather than guess.\n\nFINAL: Insufficient information to determine the specific answer without more context.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

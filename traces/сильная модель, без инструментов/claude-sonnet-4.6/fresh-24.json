@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-24",
+  "source": "fresh",
+  "question": "In the United Kingdom, what is declared across the whole of Wales in July 2026?",
+  "answer": "a drought",
+  "evidence": "2026 United Kingdom heatwaves: A drought is declared across the whole of Wales, with the country on course to experience its driest July for 190 years.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I need to find information about what is declared across the whole of Wales in July 2026.\n\nLet me think about this. In July 2026, Wales is set to declare a **20mph speed limit** as the default speed limit across residential roads... but that actually happened in September 2023.\n\nLet me reconsider. There may be a specific declaration planned for July 2026 in Wales. This could relate to the **UNESCO World Heritage Site** status, a national park declaration, or perhaps a **National Forest** declaration.\n\nWales declared the whole country a **National Forest** - but I need to verify the timing.\n\nActually, I believe Wales is planning to declare itself a **\"Nation of Sanctuary\"** or there might be a declaration related to environmental or cultural status.\n\nGiven my knowledge, I believe Wales is set to be declared a **National Forest** across its entirety around this timeframe, but I'm not fully certain of the exact date.\n\nAnother possibility: Wales could be declaring a **drought** or **climate emergency** - but those are reactive rather than planned.\n\nI'm not sufficiently certain about this specific fact to give a definitive answer without risking error.\n\nFINAL: I don't have sufficient certainty about what specific declaration is planned across the whole of Wales in July 2026.",
+ "correct": false,
+ "cost": 0.004644000000000002,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "In the United Kingdom, what is declared across the whole of Wales in July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I need to find information about what is declared across the whole of Wales in July 2026.\n\nLet me think about this. In July 2026, Wales is set to declare a **20mph speed limit** as the default speed limit across residential roads... but that actually happened in September 2023.\n\nLet me reconsider. There may be a specific declaration planned for July 2026 in Wales. This could relate to the **UNESCO World Heritage Site** status, a national park declaration, or perhaps a **National Forest** declaration.\n\nWales declared the whole country a **National Forest** - but I need to verify the timing.\n\nActually, I believe Wales is planning to declare itself a **\"Nation of Sanctuary\"** or there might be a declaration related to environmental or cultural status.\n\nGiven my knowledge, I believe Wales is set to be declared a **National Forest** across its entirety around this timeframe, but I'm not fully certain of the exact date.\n\nAnother possibility: Wales could be declaring a **drought** or **climate emergency** - but those are reactive rather than planned.\n\nI'm not sufficiently certain about this specific fact to give a definitive answer without risking error.\n\nFINAL: I don't have sufficient certainty about what specific declaration is planned across the whole of Wales in July 2026.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

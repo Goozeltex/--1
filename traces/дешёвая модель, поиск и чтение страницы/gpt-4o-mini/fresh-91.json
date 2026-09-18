@@ -1,0 +1,98 @@
+{
+ "task": {
+  "id": "fresh-91",
+  "source": "fresh",
+  "question": "What was the amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026?",
+  "answer": "₹25,863 crore",
+  "evidence": "5 July – Union Agriculture and Rural Development Minister Shivraj Singh Chouhan releases the first instalment of ₹25,863 crore (US$2.7 billion) to states for the implementation of the VB-G RAM-G scheme.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026 was ₹25,863 crore (approximately US$2.7 billion). \n\nFINAL: ₹25,863 crore",
+ "correct": true,
+ "cost": 0.000393750000000026,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What was the amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_CDcWrCrLqxhlDNJt1ahHvhNE",
+     "function": {
+      "name": "guardian_search",
+      "arguments": "{\"query\":\"Shivraj Singh Chouhan VB-G RAM-G scheme July 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_CDcWrCrLqxhlDNJt1ahHvhNE",
+   "content": "[G Robert Blakey obituary] US attorney and a key figure in the investigations into the assassinations of John F Kennedy and Martin Luther King (https://www.theguardian.com/us-news/2026/may/26/g-robert-blakey-obituary)"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_4WmxLZrECuNr5dD6Y7CDxZbq",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Shivraj Singh Chouhan VB-G RAM-G scheme July 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_4WmxLZrECuNr5dD6Y7CDxZbq",
+   "content": "[2026 in India] The following is a list of events for the year 2026 in India."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_5jUBGk1UY0LjpWMAKihxdWLl",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in India\",\"keywords\":\"Shivraj Singh Chouhan VB-G RAM-G scheme\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_5jUBGk1UY0LjpWMAKihxdWLl",
+   "content": "At least 20 people are reported killed after being attacked by a single wild elephant roaming the forests of West Singhbhum district, Jharkhand since 1 January.\n4 February – Yumnam Khemchand Singh takes oath as the Chief Minister of Manipur after President's rule ends in the state.\nLok Sabha MP K. C. Venugopal moves a privilege notice against Defence Minister Rajnath Singh accusing him of misleading the Parliament of casualties of Operation Sindoor.\n5 July – Union Agriculture and Rural Development Minister Shivraj Singh Chouhan releases the first instalment of ₹25,863 crore (US$2.7 billion) to states for the implementation of the VB-G RAM-G scheme.\nSonam Wangchuk writes to Union Ministers J. P. Nadda and Jitendra Singh Rana saying that he would end his fast if the Centre promises to not take any action against the students who protested against alleged examination irregularities."
+  },
+  {
+   "role": "assistant",
+   "content": "The amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026 was ₹25,863 crore (approximately US$2.7 billion). \n\nFINAL: ₹25,863 crore",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

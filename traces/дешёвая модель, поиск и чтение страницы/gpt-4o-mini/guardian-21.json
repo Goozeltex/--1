@@ -1,0 +1,75 @@
+{
+ "task": {
+  "id": "guardian-21",
+  "source": "guardian",
+  "question": "How many balls did Harry Brook take to reach triple figures?",
+  "answer": "42",
+  "evidence": "Brook cavorted to triple figures off 42 balls, of which precisely a third were dispatched to the boundary, six of them beyond it, and ended unbeaten on 114 as England posted 254. But as much as his power his running impressed, using the size of the ground and manipulation of angles to maximum advantage, aided occasionally by the tourists’ imperfection in the field, as he scurried a succession of twos.",
+  "page": "England thrash Sri Lanka after Harry Brook rejects rest to blast brilliant century",
+  "url": "https://www.theguardian.com/sport/2026/sep/15/england-sri-lanka-first-t20-international-match-report",
+  "sonnet_answer": "Harry Brook reached his triple century (300) off 310 balls during his innings of 317 against Pakistan in Multan in 2024."
+ },
+ "answer": "Harry Brook reached triple figures off 42 balls. \n\nFINAL: 42",
+ "correct": true,
+ "cost": 0.0002787000000000206,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "How many balls did Harry Brook take to reach triple figures?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_TTjMemIOgIGpuBwTvdUu9eHS",
+     "function": {
+      "name": "guardian_search",
+      "arguments": "{\"query\":\"Harry Brook triple century\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_TTjMemIOgIGpuBwTvdUu9eHS",
+   "content": "[England thrash Sri Lanka after Harry Brook rejects rest to blast brilliant century] England captain hits unbeaten 114 off 49 balls in first T20 Sonny Baker claims three wickets in 119-run victory (https://www.theguardian.com/sport/2026/sep/15/england-sri-lanka-first-t20-international-match-report)"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_969IvDvYG5Q0M6RYkmEaKtAs",
+     "function": {
+      "name": "guardian_read",
+      "arguments": "{\"url\":\"https://www.theguardian.com/sport/2026/sep/15/england-sri-lanka-first-t20-international-match-report\",\"keywords\":\"Harry Brook century balls\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_969IvDvYG5Q0M6RYkmEaKtAs",
+   "content": "As he nears the end of a hectic summer, Harry Brook was offered the chance to rest rather than play this series and how Sri Lanka must wish Pakistan’s red-ball side had extended him enough to force a layoff. As it turned out, the 27-year-old could hardly have looked fresher as he inspired his side to an overwhelming win over emphatically outclassed opponents, a brilliant century powering England to a 19th victory in 22 completed games since he took over the captaincy, secured by the margin of 119 runs.\nRelated: Maiden Matt Renshaw ODI century sets up Australia win in Zimbabwe\nBrook cavorted to triple figures off 42 balls, of which precisely a third were dispatched to the boundary, six of them beyond it, and ended unbeaten on 114 as England posted 254. But as much as his power his running impressed, using the size of the ground and manipulation of angles to maximum advantage, aided occasionally by the tourists’ imperfection in the field, as he scurried a succession of twos."
+  },
+  {
+   "role": "assistant",
+   "content": "Harry Brook reached triple figures off 42 balls. \n\nFINAL: 42",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

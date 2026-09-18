@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-37",
+  "source": "fresh",
+  "question": "On what date did resident doctors in England announce a four-day strike in June 2026?",
+  "answer": "15 June",
+  "evidence": "Resident doctors in England announce a four-day strike from 7am on 15 June, their 16th strike action over a pay dispute.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "Based on the Guardian article, the announcement was made on **May 27, 2026** (as shown in the article URL date). The article states that resident doctors announced they would stage the four-day strike from June 15-19, 2026.\n\nFINAL: May 27, 2026",
+ "correct": false,
+ "cost": 0.006364999999999954,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "On what date did resident doctors in England announce a four-day strike in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about resident doctors' strike announcement in England for June 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01AEQgwpUXgxJxyT2murRNdb",
+     "function": {
+      "name": "guardian_search",
+      "arguments": "{\"query\": \"resident doctors England four-day strike June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01AEQgwpUXgxJxyT2murRNdb",
+   "content": "[Resident doctors in England to stage four-day strike in June] BMA blames new health secretary for decision to stage 16th strike in long-running jobs and pay dispute (https://www.theguardian.com/society/2026/may/27/resident-doctors-in-england-to-stage-four-day-strike-in-june)"
+  },
+  {
+   "role": "assistant",
+   "content": "Now let me read the article to find the specific announcement date:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01QUae5XDRpMbVxw2pr7zti8",
+     "function": {
+      "name": "guardian_read",
+      "arguments": "{\"url\": \"https://www.theguardian.com/society/2026/may/27/resident-doctors-in-england-to-stage-four-day-strike-in-june\", \"keywords\": \"announced strike date June\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01QUae5XDRpMbVxw2pr7zti8",
+   "content": "Resident doctors in England will next month stage the 16th strike in their long-running jobs and pay dispute, and have blamed the new health secretary for their decision.\nThey will strike for four days from 7am on Monday 15 June until 6.59am on Friday 19 June. Announcing the move, the British Medical Association warned that resident doctors would mount a further stoppage in July unless progress towards meeting their demands was made.\n“I’m disappointed that the BMA have refused to consider further discussions about how to strengthen the deal on the table and have instead rushed once again to unnecessary and unreasonable strike action,” said Murray, who met BMA representatives earlier on Wednesday."
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the Guardian article, the announcement was made on **May 27, 2026** (as shown in the article URL date). The article states that resident doctors announced they would stage the four-day strike from June 15-19, 2026.\n\nFINAL: May 27, 2026",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

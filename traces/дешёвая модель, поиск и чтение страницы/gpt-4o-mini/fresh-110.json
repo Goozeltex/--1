@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-110",
+  "source": "fresh",
+  "question": "Who wins the special election in Georgia in 2026?",
+  "answer": "Clay Fuller",
+  "evidence": "Assistant District Attorney Clay Fuller, a Trump-endorsed Republican, wins the special election in Georgia to replace Marjorie Taylor Greene, who resigned in January following a public fallout with Trump.",
+  "page": "2026 in the United States",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "In the ongoing special election for Marjorie Taylor Greene's seat in Georgia, Democrat Shawn Harris is currently leading in votes, but the final outcome will depend on the runoff election against Clay Fuller, the Trump-endorsed candidate. The winner of this runoff will complete Greene's term.\n\nFINAL: The outcome is still pending; a runoff election will determine the winner.",
+ "correct": false,
+ "cost": 0.0003063000000000371,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who wins the special election in Georgia in 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_5FBW8wReRG9nUI5eHS1LQOsl",
+     "function": {
+      "name": "guardian_search",
+      "arguments": "{\"query\":\"Georgia special election 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_5FBW8wReRG9nUI5eHS1LQOsl",
+   "content": "[Democratic lead in Georgia special election signals change in party’s fortunes] Race to fill Marjorie Taylor Greene’s seat provides glimpse into midterms with Iran and immigration on voters’ minds (https://www.theguardian.com/us-news/2026/mar/14/democrats-georgia-election)"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_lIo8yDLGby2B4xhT1xybjDwH",
+     "function": {
+      "name": "guardian_read",
+      "arguments": "{\"url\":\"https://www.theguardian.com/us-news/2026/mar/14/democrats-georgia-election\",\"keywords\":\"winner special election 2026 Georgia\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_lIo8yDLGby2B4xhT1xybjDwH",
+   "content": "Earlier this week, a steady trickle of voters casting ballots in Dalton at Georgia’s City Hall offered a glimpse into what may be changing fortunes for Democrats in Marjorie Taylor Greene’s former congressional district.\nThe district hasn’t elected a Democrat since it was created after the 2010 Census . But the party’s candidate Shawn Harris drew the most votes district-wide – about 37% – on Tuesday and now faces Clay Fuller, a Trump-endorsed former prosecutor as his opponent in an April runoff election. The winner will finish Greene’s term in January.\nDalton, is one of the district’s largest cities and the seat of Whitfield county, where a handful of precincts showed double-digit increases in Democratic votes this week compared with the 2024 presidential election, according to an analysis by the Atlanta Journal-Constitution. The special election also gave a glimpse into what was on voters’ minds during a heated midterm election year in which Democrats are looking to take back control of Congress."
+  },
+  {
+   "role": "assistant",
+   "content": "In the ongoing special election for Marjorie Taylor Greene's seat in Georgia, Democrat Shawn Harris is currently leading in votes, but the final outcome will depend on the runoff election against Clay Fuller, the Trump-endorsed candidate. The winner of this runoff will complete Greene's term.\n\nFINAL: The outcome is still pending; a runoff election will determine the winner.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "task": {
+  "id": "guardian-9",
+  "source": "guardian",
+  "question": "What was the score of the match between the Red Roses and Australia?",
+  "answer": "48-15",
+  "evidence": "The Red Roses have been regulars on BBC Two in recent years, but the main channel was showing the 1962 film Lawrence of Arabia last Saturday afternoon while the world champions were beating Australia 48-15 at Sale Sharks’ CorpAcq Stadium.",
+  "page": "Sky closes in on broadcast rights for first women’s British & Irish Lions tour",
+  "url": "https://www.theguardian.com/sport/2026/sep/16/womens-rugby-union-sky-broadcast-rights-first-british-irish-lions-tour",
+  "sonnet_answer": "unknown"
+ },
+ "answer": "I will look up the latest score of the match between the Red Roses and Australia. \n\nFINAL: Unable to provide the score as the latest match information is not available.",
+ "correct": false,
+ "cost": 3.374999999999906e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What was the score of the match between the Red Roses and Australia?"
+  },
+  {
+   "role": "assistant",
+   "content": "I will look up the latest score of the match between the Red Roses and Australia. \n\nFINAL: Unable to provide the score as the latest match information is not available.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

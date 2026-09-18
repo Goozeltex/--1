@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-42",
+  "source": "fresh",
+  "question": "Who inaugurated the Noida International Airport in India in March 2026?",
+  "answer": "Prime Minister Narendra Modi",
+  "evidence": "28 March – The Noida International Airport is inaugurated by Prime Minister Narendra Modi.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "The information regarding who inaugurated the Noida International Airport in March 2026 is not specified in the available sources. Therefore, I cannot provide a definitive answer to that question.\n\nFINAL: Unknown",
+ "correct": false,
+ "cost": 0.00029895000000002003,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who inaugurated the Noida International Airport in India in March 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_1oHPlcQ0RT8iJE8MxhGIf7sv",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Noida International Airport inauguration March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_1oHPlcQ0RT8iJE8MxhGIf7sv",
+   "content": "[Noida International Airport] Noida International Airport (IATA: DXN, ICAO: VIND), also called Jewar Airport, is an international airport at Jewar in the Gautam Buddha Nagar district of Uttar Pradesh, India, serving the National Capital Region and western Uttar Pradesh. In its first phase, the airport has one runway and one passenger terminal with a capacity of 12 million passengers annually. The airport will increase this capacity to 30 million passengers annually in the upcoming years. The airport is intended to complement Indira Gandhi International Airport as part of the Delhi-NCR region's dual-airport system. The first phase was inaugurated on 28 March 2026, following the grant of an aerodrome licence by the DGCA on 6 March 2026. Commercial operations began on 15 June 2026."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_A18aGoh0qmbYaVWkeJfCujDF",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Noida International Airport\",\"keywords\":\"inauguration\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_A18aGoh0qmbYaVWkeJfCujDF",
+   "content": "Originally slated for opening in 2022, delays repeatedly pushed back the start of commercial operations. On 6 March 2026, the airport received its aerodrome licence by the Directorate General of Civil Aviation. Phase I was inaugurated on 28 March 2026. Scheduled commercial flights were initially expected to begin in mid-April to May 2026, following the inauguration. The airport commenced flight operations on 15 June 2026, with an IndiGo flight landing from Lucknow.\nReaching the airport from central Delhi and Noida has remained a recurring concern in local coverage because of its distance from the core urban area and the fact that rail-based links are still at the planning stage. At the time of inauguration, access planning focused mainly on buses, taxis and road shuttles."
+  },
+  {
+   "role": "assistant",
+   "content": "The information regarding who inaugurated the Noida International Airport in March 2026 is not specified in the available sources. Therefore, I cannot provide a definitive answer to that question.\n\nFINAL: Unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

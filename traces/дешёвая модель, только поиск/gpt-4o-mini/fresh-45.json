@@ -1,0 +1,142 @@
+{
+ "task": {
+  "id": "fresh-45",
+  "source": "fresh",
+  "question": "What type of aircraft crashed in Yalova Province, Turkey on August 13, 2026?",
+  "answer": "F-16 Fighting Falcon",
+  "evidence": "13 August – An F-16 Fighting Falcon of the Turkish Air Force crashes in Yalova Province. The pilot ejects safely.",
+  "page": "2026 in Turkey",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Я не смог найти информацию о происшествии с самолётом в провинции Ялова, Турция, 13 августа 2026 года. Возможно, событие еще не освещалось в доступных источниках. \n\nFINAL: Информация недоступна.",
+ "correct": false,
+ "cost": 0.00044909999999998007,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What type of aircraft crashed in Yalova Province, Turkey on August 13, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_eJNpgZ6pzouVL4VEIoR2GJMQ",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Yalova Province Turkey aircraft crash August 13 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_eJNpgZ6pzouVL4VEIoR2GJMQ",
+   "content": "[2026 in Turkey] Individuals and events related to 2026 in Turkey."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_gxzm6IuLJuLFIA4VqAGH6dZj",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Yalova Turkey August 13 2026 aircraft incident\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_gxzm6IuLJuLFIA4VqAGH6dZj",
+   "content": "[2026 in Turkey] Individuals and events related to 2026 in Turkey."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_rECtpBbyttE2Z6ZH8lbvdKEd",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"aircraft crash Yalova Turkey August 13 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_rECtpBbyttE2Z6ZH8lbvdKEd",
+   "content": "[2026 in Turkey] Individuals and events related to 2026 in Turkey."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_os4OIEzfCBVSMVQn6kYbSNeZ",
+     "function": {
+      "name": "guardian_search",
+      "arguments": "{\"query\":\"Yalova Province Turkey aircraft crash August 13 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_os4OIEzfCBVSMVQn6kYbSNeZ",
+   "content": "[Premier League 2026-27 preview No 13: Leeds] After keeping Leeds up last season and reaching an FA Cup semi-final, Daniel Farke has good reason to expect further improvement at Elland Road (https://www.theguardian.com/football/2026/aug/18/premier-league-2026-27-preview-no-13-leeds)"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_yHdTVvuRDme3bAwHSB10tiCj",
+     "function": {
+      "name": "guardian_search",
+      "arguments": "{\"query\":\"aircraft crash August 13 2026 Turkey\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_yHdTVvuRDme3bAwHSB10tiCj",
+   "content": "[Premier League 2026-27 preview No 13: Leeds] After keeping Leeds up last season and reaching an FA Cup semi-final, Daniel Farke has good reason to expect further improvement at Elland Road (https://www.theguardian.com/football/2026/aug/18/premier-league-2026-27-preview-no-13-leeds)"
+  },
+  {
+   "role": "assistant",
+   "content": "Я не смог найти информацию о происшествии с самолётом в провинции Ялова, Турция, 13 августа 2026 года. Возможно, событие еще не освещалось в доступных источниках. \n\nFINAL: Информация недоступна.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

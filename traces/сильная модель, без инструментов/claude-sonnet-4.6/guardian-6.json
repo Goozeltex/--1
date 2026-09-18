@@ -1,0 +1,31 @@
+{
+ "task": {
+  "id": "guardian-6",
+  "source": "guardian",
+  "question": "What restaurant in Colchester serves duck liver mousse?",
+  "answer": "Kintsu",
+  "evidence": "Amid all the bunting and hoopla of the platinum jubilee back in 2022, you may well have missed that Colchester, Britain’s oldest recorded settlement, got an upgrade from town to city status. And, as we all know, no true city is complete without at least one fancy restaurant that serves the likes of duck liver mousse on lattice tuiles. Well, in Colchester, Kintsu takes that slot.",
+  "page": "Kintsu, Colchester, Essex: ‘Style as well as substance’ – restaurant review",
+  "url": "https://www.theguardian.com/food/2026/sep/06/kintsu-colchester-essex-restaurant-review-grace-dent",
+  "sonnet_answer": "unknown"
+ },
+ "answer": "I don't have reliable real-time information about current restaurant menus in Colchester. My knowledge has a cutoff date and I can't browse the internet to check current menus.\n\nI'd recommend:\n- Checking Google Maps or TripAdvisor for Colchester restaurants\n- Looking at local restaurant websites\n- Checking apps like OpenTable or Yelp\n\nFINAL: I don't know",
+ "correct": false,
+ "cost": 0.0017429999999999946,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What restaurant in Colchester serves duck liver mousse?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have reliable real-time information about current restaurant menus in Colchester. My knowledge has a cutoff date and I can't browse the internet to check current menus.\n\nI'd recommend:\n- Checking Google Maps or TripAdvisor for Colchester restaurants\n- Looking at local restaurant websites\n- Checking apps like OpenTable or Yelp\n\nFINAL: I don't know",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

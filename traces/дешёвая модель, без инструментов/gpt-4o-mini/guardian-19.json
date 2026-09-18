@@ -1,0 +1,31 @@
+{
+ "task": {
+  "id": "guardian-19",
+  "source": "guardian",
+  "question": "How many decades has esea contemporary been in existence?",
+  "answer": "four-decade",
+  "evidence": "Zhu believes the four-decade milestone presents an opportunity for reflection, as well as for clarity: who is esea contemporary accountable to, and why does it exist?",
+  "page": "‘The place lost its way. Now that’s changed’: can a Manchester art museum move beyond its troubled past?",
+  "url": "https://www.theguardian.com/artanddesign/2026/sep/11/esea-contemporary-manchester-formerly-centre-of-chinese-contemporary-art",
+  "sonnet_answer": "Nearly 4 decades (founded in 1986 as the Centre for Chinese Contemporary Art, rebranded as ESEA Contemporary in 2021)"
+ },
+ "answer": "ESEA Contemporary was founded in 2019. As of 2023, it has been in existence for 4 years, which is less than a decade. \n\nFINAL: 0",
+ "correct": false,
+ "cost": 3.5700000000027377e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "How many decades has esea contemporary been in existence?"
+  },
+  {
+   "role": "assistant",
+   "content": "ESEA Contemporary was founded in 2019. As of 2023, it has been in existence for 4 years, which is less than a decade. \n\nFINAL: 0",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

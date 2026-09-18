@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-9",
+  "source": "fresh",
+  "question": "What city hosted the 2026 BWF World Championships in sports in August?",
+  "answer": "New Delhi",
+  "evidence": "August 17 – 23 : 2026 BWF World Championships in New Delhi, India",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+  "sonnet_answer": "Zhengzhou",
+  "agent_ok": true
+ },
+ "answer": "The 2026 BWF World Championships was hosted in New Delhi, India. \n\nFINAL: New Delhi, India",
+ "correct": true,
+ "cost": 0.00010409999999999586,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What city hosted the 2026 BWF World Championships in sports in August?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Z4fEwkxW5ciTQLAdhwg6vnGL",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 BWF World Championships host city\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Z4fEwkxW5ciTQLAdhwg6vnGL",
+   "content": "[2026 BWF World Championships] The 2026 BWF World Championships is the 30th edition of the world badminton championships. It took place in New Delhi, India in 2026. India hosted the World Championships for the first time since 2009."
+  },
+  {
+   "role": "assistant",
+   "content": "The 2026 BWF World Championships was hosted in New Delhi, India. \n\nFINAL: New Delhi, India",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

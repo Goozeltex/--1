@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-122",
+  "source": "fresh",
+  "question": "Who ousted Sussan Ley in February 2026 in Australian politics?",
+  "answer": "Angus Taylor",
+  "evidence": "February 13 – Sussan Ley, the first female leader of the Liberal Party of Australia, was ousted by Angus Taylor.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Sussan Ley was ousted by Angus Taylor in February 2026 during a leadership spill. \n\nFINAL: Angus Taylor",
+ "correct": true,
+ "cost": 0.00041564999999998964,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who ousted Sussan Ley in February 2026 in Australian politics?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_jTZiu6nGJxtzuNDQy1XWsRVP",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Sussan Ley ousted February 2026 Australian politics\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_jTZiu6nGJxtzuNDQy1XWsRVP",
+   "content": "[Sussan Ley] Sussan Penelope Ley (née Braybrooks; born 14 December 1961) is an Australian retired politician who served as the leader of the Opposition from 2025 to 2026, holding office as the 16th leader of the Liberal Party. She was the member of Parliament (MP) for the New South Wales division of Farrer from 2001 to 2026, and served as a minister in the Abbott, Turnbull, and Morrison governments. Born into an English family in Nigeria, Ley grew up in the Trucial States (now the United Arab Emirates) and England, before moving to Australia as a teenager. Prior to entering politics, she worked as a commercial pilot, farmer and public servant based in Albury. She was elected to the House of Representatives at the 2001 federal election, winning the regional New South Wales seat of Farrer. Ley was appointed parliamentary secretary by John Howard in 2004, serving until the Coalition's defeat at the 2007 election. After the election, she held positions the Nelson, Turnbull, and Abbott shadow ministries. After the Liberal–National Coalition's victory at the 2013 election, Ley was appointed Assistant Minister for Education by Tony Abbott, later joining the cabinet in 2014 as Minister for Health and Minister for Sport. She continued to serve in the cabinet until January 2017, resigning amid a scandal regarding her travel expenses. She would return to the ministry in August 2018 after Scott Morrison succeeded Malcolm Turnbull as prime minister, becoming an assistant minister and later returning to cabinet in 2019 as Minister for the Environment, remaining in this position until the Coalition's defeat at the 2022 election. Ley was elected unopposed as deputy leader of the Liberal Party under Peter Dutton after the 2022 defeat. After Dutton lost his seat in the Coalition's landslide defeat at the 2025 election, she was elected Liberal leader at a leadership election, becoming leader of the Opposition as the first woman in Australian history to hold either position. In her ten"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_vLg7MAJociQ68Xmrtxwcyt59",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Sussan Ley\",\"keywords\":\"ousted February 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_vLg7MAJociQ68Xmrtxwcyt59",
+   "content": "Sussan Penelope Ley (née Braybrooks; born 14 December 1961) is an Australian retired politician who served as the leader of the Opposition from 2025 to 2026, holding office as the 16th leader of the Liberal Party. She was the member of Parliament (MP) for the New South Wales division of Farrer from 2001 to 2026, and served as a minister in the Abbott, Turnbull, and Morrison governments.\nLey was elected unopposed as deputy leader of the Liberal Party under Peter Dutton  after the 2022 defeat. After Dutton lost his seat in the Coalition's landslide defeat at the 2025 election, she was elected Liberal leader at a leadership election, becoming leader of the Opposition as the first woman in Australian history to hold either position. In her tenth month as leader in 2026, she was ousted by Angus Taylor in a leadership spill; she subsequently retired from politics, triggering a by-election in her seat of Farrer.\nIn March 2023, Ley dressed up as Tina Turner in Parliament to raise money for cancer. In February 2024, on the eve of the 2024 Dunkley by-election, Ley posted a tweet linking a crime incident in Frankston to \"foreign criminals\". Victoria Police had charged an immigration detainee but later dropped the charges after a case of mistaken identity. Speaking after the police bungle was revealed, a spokesperson for Ms Ley told the ABC the deputy leader stood by her comments completely, suggesting it spoke to the broader issue of how the government had handled the release of the detainees into the community. Prime Minister Anthony Albanese said it was \"extraordinary\" that Ley had refused to delete her tweet.\n== Leader of the Opposition (2025–2026) ==\nOn 21 January 2026, following a recall of parliament to vote on the Combatting Antisemitism, Hate and Extremism (Criminal and Migration Laws) Bill 2026, all Nationals frontbenchers resigned from the ministry, following the resignation of Senators Susan McDonald, Bridget McKenzie, and Ross Cadell, for voting against the officia"
+  },
+  {
+   "role": "assistant",
+   "content": "Sussan Ley was ousted by Angus Taylor in February 2026 during a leadership spill. \n\nFINAL: Angus Taylor",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

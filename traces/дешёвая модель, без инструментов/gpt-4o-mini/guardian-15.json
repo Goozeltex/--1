@@ -1,0 +1,31 @@
+{
+ "task": {
+  "id": "guardian-15",
+  "source": "guardian",
+  "question": "What title did the Lynx clinch?",
+  "answer": "fourth title",
+  "evidence": "Fowles answered the call. She racked up 17 points and broke her own WNBA rebounds record with 20. Her effort was matched by that of Maya Moore, with 18 points and 10 rebounds; Lindsay Whalen, who had 17 points and eight assists; and Seimone Augustus, who added another 14 points, six assists and six rebounds. The Lynx showed out , clinching the franchise’s fourth title, with Fowles named finals MVP.",
+  "page": "‘It’s payback time’: the WNBA-leading Lynx are on the hunt for title redemption",
+  "url": "https://www.theguardian.com/sport/2026/sep/16/wnba-playoffs-minnesota-lynx-olivia-miles",
+  "sonnet_answer": "unknown"
+ },
+ "answer": "The Lynx clinched the WNBA Championship title. FINAL: WNBA Championship",
+ "correct": false,
+ "cost": 2.2200000000027753e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What title did the Lynx clinch?"
+  },
+  {
+   "role": "assistant",
+   "content": "The Lynx clinched the WNBA Championship title. FINAL: WNBA Championship",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

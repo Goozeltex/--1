@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-47",
+  "source": "fresh",
+  "question": "What position did Dharmendra Pradhan resign from in India in July 2026?",
+  "answer": "Education Minister",
+  "evidence": "July 25 – Indian Education Minister Dharmendra Pradhan resigns from the position in light of the protests over a NEET exam leak. Most of the protests ceased following his resignation.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "Based on the search results, Dharmendra Pradhan resigned from his position as **Education Minister of India** in July 2026. He stepped down following demonstrations and protests related to an exam leak scandal.\n\nFINAL: Education Minister",
+ "correct": true,
+ "cost": 0.003767000000000076,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What position did Dharmendra Pradhan resign from in India in July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about Dharmendra Pradhan's resignation in July 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_019XoBzp2mETERX58MQJaqvq",
+     "function": {
+      "name": "guardian_search",
+      "arguments": "{\"query\": \"Dharmendra Pradhan resign July 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_019XoBzp2mETERX58MQJaqvq",
+   "content": "[India’s education minister resigns in victory for Cockroach youth movement protests] Dharmendra Pradhan steps down after demonstrations over exam leak scandal, prompting celebrations among thousands of protesters (https://www.theguardian.com/world/2026/jul/25/dharmendra-pradhan-india-education-minister-resigns-cockroach-movement)"
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the search results, Dharmendra Pradhan resigned from his position as **Education Minister of India** in July 2026. He stepped down following demonstrations and protests related to an exam leak scandal.\n\nFINAL: Education Minister",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

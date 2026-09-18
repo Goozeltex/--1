@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-47",
+  "source": "fresh",
+  "question": "What position did Dharmendra Pradhan resign from in India in July 2026?",
+  "answer": "Education Minister",
+  "evidence": "July 25 – Indian Education Minister Dharmendra Pradhan resigns from the position in light of the protests over a NEET exam leak. Most of the protests ceased following his resignation.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "У меня нет данных о событиях или фактах после октября 2023 года, поэтому я не могу предоставить информацию о том, с какой должности Дхармендра Прадхан ушел в июле 2026 года. \n\nFINAL: Нет данных.",
+ "correct": false,
+ "cost": 4.635000000002831e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What position did Dharmendra Pradhan resign from in India in July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "У меня нет данных о событиях или фактах после октября 2023 года, поэтому я не могу предоставить информацию о том, с какой должности Дхармендра Прадхан ушел в июле 2026 года. \n\nFINAL: Нет данных.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

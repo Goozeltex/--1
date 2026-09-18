@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-116",
+  "source": "fresh",
+  "question": "Who was associated with the 2026 U.S. Women's Open held in California?",
+  "answer": "Nelly Korda",
+  "evidence": "June 4–7: 2026 U.S. Women's Open at Riviera Country Club in Pacific Palisades, California – Nelly Korda",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+  "sonnet_answer": "The 2026 U.S. Women's Open is scheduled to be held at Riviera Country Club in Pacific Palisades, California. Riviera Country Club is historically associated with Ben Hogan, who won there multiple times and gave the course its nickname 'Hogan's Alley.'",
+  "agent_ok": true
+ },
+ "answer": "The 2026 U.S. Women's Open was associated with Nelly Korda, who won the event, along with runners-up Charley Hull and Gaby López. It was held at Riviera Country Club in Pacific Palisades, California. \n\nFINAL: Nelly Korda",
+ "correct": true,
+ "cost": 0.00012990000000001611,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who was associated with the 2026 U.S. Women's Open held in California?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_TDVlpc5LuQTk01z2EBGkRlR0",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 U.S. Women's Open California\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_TDVlpc5LuQTk01z2EBGkRlR0",
+   "content": "[2026 U.S. Women's Open] The 2026 U.S. Women's Open presented by Ally was the 81st U.S. Women's Open, held June 4–7 at Riviera Country Club in Pacific Palisades, California. Nelly Korda won her fourth major title (and second consecutive), one stroke ahead of runners-up Charley Hull and Gaby López. This was Korda's first victory at the U.S. Women's Open."
+  },
+  {
+   "role": "assistant",
+   "content": "The 2026 U.S. Women's Open was associated with Nelly Korda, who won the event, along with runners-up Charley Hull and Gaby López. It was held at Riviera Country Club in Pacific Palisades, California. \n\nFINAL: Nelly Korda",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

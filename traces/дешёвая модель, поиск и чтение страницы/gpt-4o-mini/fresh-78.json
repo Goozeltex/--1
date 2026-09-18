@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-78",
+  "source": "fresh",
+  "question": "What is the median overall survival time reported for patients with metastatic pancreatic cancer in May 2026?",
+  "answer": "13.2 months",
+  "evidence": "31 May – A Phase 3 trial published in the New England Journal of Medicine reports that daraxonrasib, an investigational oral RAS(ON) inhibitor, nearly doubles median overall survival in patients with previously treated metastatic pancreatic cancer, from 6.6 months with standard chemotherapy to 13.2 months.",
+  "page": "2026 in science",
+  "url": "https://en.wikipedia.org/wiki/2026_in_science",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "The article does not specify the exact median overall survival time for patients with metastatic pancreatic cancer reported in May 2026. It does mention that a new drug called daraxonrasib can double the survival time, but the specific figures are not provided. \n\nFINAL: Median overall survival time not specified.",
+ "correct": false,
+ "cost": 0.00031680000000000597,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What is the median overall survival time reported for patients with metastatic pancreatic cancer in May 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_2CbjtebuPEIihCLM9XEHJ6tq",
+     "function": {
+      "name": "guardian_search",
+      "arguments": "{\"query\":\"median overall survival time metastatic pancreatic cancer May 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_2CbjtebuPEIihCLM9XEHJ6tq",
+   "content": "[Daily pill can double survival time for world’s deadliest cancer, trial shows] Experts hail daraxonrasib as ‘gamechanger’ for patients with advanced pancreatic cancer (https://www.theguardian.com/society/2026/may/31/daily-pill-daraxonrasib-double-survival-time-pancreatic-pancreas-cancer-clinical-trial)"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_hMHE8hVtOLAvsCMmzM6NdDo8",
+     "function": {
+      "name": "guardian_read",
+      "arguments": "{\"url\":\"https://www.theguardian.com/society/2026/may/31/daily-pill-daraxonrasib-double-survival-time-pancreatic-pancreas-cancer-clinical-trial\",\"keywords\":\"median overall survival time metastatic pancreatic cancer\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_hMHE8hVtOLAvsCMmzM6NdDo8",
+   "content": "A daily pill can double survival time in patients with the world’s deadliest cancer, according to the results of a clinical trial that experts are saying is a “gamechanger” and one of the biggest breakthroughs in decades.\nCurrently, there are few treatments for pancreatic cancer, and most do little or nothing to help. For decades, scientists have worked relentlessly trying to find clever solutions for a form of cancer that is often found late. More than half of patients are only diagnosed after it has spread.\nNow experts at the world’s largest cancer conference are hailing the arrival of a smart drug called daraxonrasib, which they say could pave the way for a treatment revolution."
+  },
+  {
+   "role": "assistant",
+   "content": "The article does not specify the exact median overall survival time for patients with metastatic pancreatic cancer reported in May 2026. It does mention that a new drug called daraxonrasib can double the survival time, but the specific figures are not provided. \n\nFINAL: Median overall survival time not specified.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

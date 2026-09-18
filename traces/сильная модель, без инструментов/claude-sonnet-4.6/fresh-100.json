@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-100",
+  "source": "fresh",
+  "question": "What maximum distance did the crew of Artemis II reach from Earth on April 6, 2026?",
+  "answer": "252,756 miles",
+  "evidence": "April 6 – The crew of Artemis II breaks the record for the furthest humans have ever been from Earth, reaching a maximum distance of 252,756 miles (406,771 km) as they travel around the far side of the Moon.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I need to check this. My knowledge cutoff is early 2025, and Artemis II was planned but hadn't launched yet as of that date. Let me consider what I know.\n\nArtemis II was scheduled for 2025, but I don't have confirmed information about what happened on April 6, 2026, as that date is beyond my knowledge cutoff.\n\nI cannot reliably answer this question without access to current information about events in April 2026.\n\nFINAL: I don't have information about events on April 6, 2026, as this is beyond my knowledge cutoff date.",
+ "correct": false,
+ "cost": 0.0024210000000000065,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What maximum distance did the crew of Artemis II reach from Earth on April 6, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I need to check this. My knowledge cutoff is early 2025, and Artemis II was planned but hadn't launched yet as of that date. Let me consider what I know.\n\nArtemis II was scheduled for 2025, but I don't have confirmed information about what happened on April 6, 2026, as that date is beyond my knowledge cutoff.\n\nI cannot reliably answer this question without access to current information about events in April 2026.\n\nFINAL: I don't have information about events on April 6, 2026, as this is beyond my knowledge cutoff date.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

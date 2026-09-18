@@ -1,0 +1,112 @@
+{
+ "task": {
+  "id": "fresh-108",
+  "source": "fresh",
+  "question": "Where does a man get killed in a shark attack in June 2026?",
+  "answer": "Michaelmas Island",
+  "evidence": "6 June – A man is killed in a shark attack off Michaelmas Island in Western Australia.",
+  "page": "2026 in Australia",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Australia",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "In June 2026, a man was killed in a shark attack while spearfishing near Michaelmas Island, off the coast of Albany, Western Australia. \n\nFINAL: Western Australia, near Michaelmas Island.",
+ "correct": true,
+ "cost": 0.0004834500000000519,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Where does a man get killed in a shark attack in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_hIWdLtCwSwiT3LjKOSaOesQI",
+     "function": {
+      "name": "guardian_search",
+      "arguments": "{\"query\":\"shark attack June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_hIWdLtCwSwiT3LjKOSaOesQI",
+   "content": "[Woman in critical condition after shark attack at Coogee beach ] A woman in her 30s has been transported to hospital with arm and leg injuries and beaches in Sydney’s east have been closed after the attack Get our breaking news email , free app or daily news podcast (https://www.theguardian.com/australia-news/2026/jun/13/woman-in-critical-condition-after-shark-attack-at-coogee-beach)"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_oxDTCLMGmzXVa0X2MDMtHUGM",
+     "function": {
+      "name": "guardian_search",
+      "arguments": "{\"query\":\"shark attack man June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_oxDTCLMGmzXVa0X2MDMtHUGM",
+   "content": "[Man dies after shark attack off Western Australia coast near Albany] Government department says man was in the water around Michaelmas Island, near Albany, when he was bitten by a suspected 4.5-metre shark Get our breaking news email , free app or daily news podcast (https://www.theguardian.com/australia-news/2026/jun/06/man-fighting-for-life-after-being-bitten-by-shark-off-western-australian-coast)"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_xx9KKoVIuNW166MIvrH7KAS2",
+     "function": {
+      "name": "guardian_read",
+      "arguments": "{\"url\": \"https://www.theguardian.com/australia-news/2026/jun/06/man-fighting-for-life-after-being-bitten-by-shark-off-western-australian-coast\", \"keywords\": \"man killed shark attack\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "call_tbKep6Y0pTt8vAEBBNvYQA1A",
+     "function": {
+      "name": "guardian_read",
+      "arguments": "{\"url\": \"https://www.theguardian.com/australia-news/2026/jun/13/woman-in-critical-condition-after-shark-attack-at-coogee-beach\", \"keywords\": \"man killed shark attack\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_xx9KKoVIuNW166MIvrH7KAS2",
+   "content": "A male diver aged in his 30s has died after being bitten by a shark in Western Australia.\nThe state’s police force confirmed on Saturday afternoon that the 35-year-old man had died, after being treated by paramedics at the scene for more than two hours.\nThe man was spearfishing with his family near Michaelmas Island, off the coast of Albany and about 375kms south-east of Perth, on Saturday morning, police said in a statement."
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_tbKep6Y0pTt8vAEBBNvYQA1A",
+   "content": "A woman in her 30s is in a critical condition after being bitten by a large shark at Coogee beach on Saturday, with a witness describing the scene at the popular Sydney beach as “shocking”.\nA spokesperson for New South Wales Ambulance said the woman suffered arm and leg injuries and had been taken by road to St Vincent’s hospital.\nThey said multiple crews had treated the woman on the beach after the attack, which occurred just after 11am."
+  },
+  {
+   "role": "assistant",
+   "content": "In June 2026, a man was killed in a shark attack while spearfishing near Michaelmas Island, off the coast of Albany, Western Australia. \n\nFINAL: Western Australia, near Michaelmas Island.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

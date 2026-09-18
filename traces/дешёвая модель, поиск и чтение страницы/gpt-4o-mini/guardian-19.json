@@ -1,0 +1,167 @@
+{
+ "task": {
+  "id": "guardian-19",
+  "source": "guardian",
+  "question": "How many decades has esea contemporary been in existence?",
+  "answer": "four-decade",
+  "evidence": "Zhu believes the four-decade milestone presents an opportunity for reflection, as well as for clarity: who is esea contemporary accountable to, and why does it exist?",
+  "page": "‘The place lost its way. Now that’s changed’: can a Manchester art museum move beyond its troubled past?",
+  "url": "https://www.theguardian.com/artanddesign/2026/sep/11/esea-contemporary-manchester-formerly-centre-of-chinese-contemporary-art",
+  "sonnet_answer": "Nearly 4 decades (founded in 1986 as the Centre for Chinese Contemporary Art, rebranded as ESEA Contemporary in 2021)"
+ },
+ "answer": "ESEA Contemporary, изначально основанная как Chinese View Arts Association в 1987 году, существует с момента своего основания. Поскольку с 1987 года прошло более 3 декад, ESEA Contemporary существует в течение 3-х декад. \n\nFINAL: 3",
+ "correct": false,
+ "cost": 0.0011424000000000434,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "How many decades has esea contemporary been in existence?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_KEghWR5B0TKSSScMO8xB7n97",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"ESEA Contemporary\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_KEghWR5B0TKSSScMO8xB7n97",
+   "content": "[Esea contemporary] esea contemporary, formerly the Centre for Chinese Contemporary Art, is a contemporary art gallery based in Manchester, England. It is located on Thomas Street in Manchester's Northern Quarter, in the renovated part of the Smithfield Market Hall."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_bLM2jj6uwUBtIvHoOBs48NR1",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Esea contemporary\",\"keywords\":\"established\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_bLM2jj6uwUBtIvHoOBs48NR1",
+   "content": "Around this time, the CVAA discovered that their 1996–1997 grant from their core funder, the North West Arts Board (NWAB), was to be almost halved. It was agreed that the centre could no longer operate in its current form, and the Board of the CVAA began to look for a new venue and strategic lead for the centre. In June 1996, Sarah Champion became the centre's Arts Development Coordinator. Champion later stated that she was given six months to make the centre a success or close it down. The centre's new mission and objectives were finalised and five key development areas were established: education; artists development; the Chinese community; arts promotion; and advocacy and lobbying."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_dBX9r4jPgHLCZRWYwCNzhGQd",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Esea contemporary\",\"keywords\":\"history\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_dBX9r4jPgHLCZRWYwCNzhGQd",
+   "content": "== History ==\nAfter the move to Edge Street, the centre moved away from its original community focus, which has been seen to have alienated members of Manchester's Chinese community. In its recent history, the centre has begun to try to bridge the gap and gain back trust from the community which originally founded the centre.\nFollowing a project funded by the Heritage Lottery Fund, the centre opened its library and archive to the public in 2018. The library contains publications collected by the centre relating to Chinese contemporary art, including exhibition catalogues, artist monographs, and festival publications. The archive collections contain the record of the centre and its predecessors, covering the development of the centre, and its programme history."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_QAwyWe5cCKZCmfByHdDk6i0V",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Esea contemporary\",\"keywords\":\"founded\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_QAwyWe5cCKZCmfByHdDk6i0V",
+   "content": "In June 1987, Lai, with Peter Chui, Jenny Clegg, and David Wong, founded the Chinese View Arts Association (CVAA), a charitable organisation with the mission to \"advance the education of the public in all forms of Chinese culture\". Working under the remit of the CVAA, Lai organised cultural activities across Manchester and north west England working with a group of local artists of Chinese heritage. The events aimed to develop a stronger sense of cultural identity within the local Chinese community by revitalising their interest in traditional arts and crafts, while also increasing awareness of the Chinese way of life in the general population. Lai's philosophy at the time was that the activities had to be \"open door, inclusive, and involved in the mainstream community\".\nAfter the move to Edge Street, the centre moved away from its original community focus, which has been seen to have alienated members of Manchester's Chinese community. In its recent history, the centre has begun to try to bridge the gap and gain back trust from the community which originally founded the centre."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_RT2gKn9Q6diCrnjh0tzCjy3k",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Esea contemporary\",\"keywords\":\"current name\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_RT2gKn9Q6diCrnjh0tzCjy3k",
+   "content": "Around this time, the CVAA discovered that their 1996–1997 grant from their core funder, the North West Arts Board (NWAB), was to be almost halved. It was agreed that the centre could no longer operate in its current form, and the Board of the CVAA began to look for a new venue and strategic lead for the centre. In June 1996, Sarah Champion became the centre's Arts Development Coordinator. Champion later stated that she was given six months to make the centre a success or close it down. The centre's new mission and objectives were finalised and five key development areas were established: education; artists development; the Chinese community; arts promotion; and advocacy and lobbying.\nChampion became the director of the centre when it moved to new premises on Edge Street in Manchester's Northern Quarter in 1997. This was a period of great change in the centre's functions and focus. More opportunities became available due to both the policies of the new Labour government, who placed greater emphasis on the importance of culture, and the increased interest in Chinese culture due to the upcoming Handover of Hong Kong. By moving away from Chinatown, the centre also became less focused on the local Chinese community; instead focusing more on contemporary art. It was also Champion's aim that the centre would work towards becoming the UK agency for Chinese arts and culture. The centre would operate as an agency from 1999 and the charity was renamed the Chinese Arts Centre Ltd in September 2000.\nIn June 2021, following further reports of racism at the centre from artists internationally, as well as former and current members staff, all members of the board of trustees who were not white resigned from their voluntary roles, with the exception of one."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_isA1iOfd1TAKLFG9jn4lqWM3",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Esea contemporary\",\"keywords\":\"renamed\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_isA1iOfd1TAKLFG9jn4lqWM3",
+   "content": "Champion became the director of the centre when it moved to new premises on Edge Street in Manchester's Northern Quarter in 1997. This was a period of great change in the centre's functions and focus. More opportunities became available due to both the policies of the new Labour government, who placed greater emphasis on the importance of culture, and the increased interest in Chinese culture due to the upcoming Handover of Hong Kong. By moving away from Chinatown, the centre also became less focused on the local Chinese community; instead focusing more on contemporary art. It was also Champion's aim that the centre would work towards becoming the UK agency for Chinese arts and culture. The centre would operate as an agency from 1999 and the charity was renamed the Chinese Arts Centre Ltd in September 2000."
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "ESEA Contemporary, изначально основанная как Chinese View Arts Association в 1987 году, существует с момента своего основания. Поскольку с 1987 года прошло более 3 декад, ESEA Contemporary существует в течение 3-х декад. \n\nFINAL: 3",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

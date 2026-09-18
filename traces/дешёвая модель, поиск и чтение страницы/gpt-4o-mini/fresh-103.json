@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-103",
+  "source": "fresh",
+  "question": "Who replaced José Jerí as president of Peru in February 2026?",
+  "answer": "José María Balcázar",
+  "evidence": "February 17 – Peruvian president José Jerí was censured by Congress and replaced by José María Balcázar.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "José María Balcázar replaced José Jerí as president of Peru on 18 February 2026. \n\nFINAL: José María Balcázar",
+ "correct": true,
+ "cost": 0.0002071499999999893,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who replaced José Jerí as president of Peru in February 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_bQNp16NPB3DBqkkSCExj3J3N",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"who replaced José Jerí as president of Peru in February 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_bQNp16NPB3DBqkkSCExj3J3N",
+   "content": "[Vote of no confidence against José Jerí] On 17 February 2026, the Peruvian Congress approved the motion of no confidence of José Jerí from the position of president of Peru under a vote of no confidence. Unlike impeachment, which requires a supermajority of 87 in the 130-member legislature, Congress voted to remove Jerí, stripping him of his title as President of Congress with a simple majority of 66 votes. His presidential status from succession (being the constitutional president of the republic ex officio as president of Congress) meant that this removed him from the presidency. Jerí became the sixth president removed by Congress, and the fourth of the 2020s, after Guillermo Billinghurst (1914), Alberto Fujimori (2000), Martín Vizcarra (2020), Pedro Castillo (2022), and Dina Boluarte (2025). Several opposition parties put forward seven motions against Jerí during the extraordinary plenary session. Jerí has been accused of misconduct after holding private, unofficial meetings with Zhihua Yang, a Chinese businessman who holds a state-granted concession for one of his companies. The only parties who voted against the impeachment proceedings were We Are Peru, led by Jerí, and Popular Force, led by Keiko Fujimori. Jerí's impeachment was structured as a vote of no confidence rather than the traditional \"permanent moral incapacity\" under Article 113 of the Constitution of Peru. Fernando Rospigliosi, acting president of Congress, declared after the vote that the office of President of the Congress of the Republic is vacant, and consequently, the office of Constitutional President of the Republic is vacant. Jerí accepted the outcome. Following Jerí's removal, Rospigliosi, who had been the acting president of Congress since Jerí's ascension to the presidency, declined to run for the office. Subsequently, Congressman José María Balcázar was elected president by the Congress on 18 February."
+  },
+  {
+   "role": "assistant",
+   "content": "José María Balcázar replaced José Jerí as president of Peru on 18 February 2026. \n\nFINAL: José María Balcázar",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "task": {
+  "id": "guardian-14",
+  "source": "guardian",
+  "question": "What is the number of points Fowles scored in the game?",
+  "answer": "17 points",
+  "evidence": "Fowles answered the call. She racked up 17 points and broke her own WNBA rebounds record with 20. Her effort was matched by that of Maya Moore, with 18 points and 10 rebounds; Lindsay Whalen, who had 17 points and eight assists; and Seimone Augustus, who added another 14 points, six assists and six rebounds. The Lynx showed out , clinching the franchise’s fourth title, with Fowles named finals MVP.",
+  "page": "‘It’s payback time’: the WNBA-leading Lynx are on the hunt for title redemption",
+  "url": "https://www.theguardian.com/sport/2026/sep/16/wnba-playoffs-minnesota-lynx-olivia-miles",
+  "sonnet_answer": "unknown"
+ },
+ "answer": "I need more context to answer your question. You're asking about \"the game\" and \"Fowles,\" but I need to know:\n\n1. Which Fowles are you referring to? (There are several athletes with that surname)\n2. Which specific game are you asking about?\n3. What sport?\n\nCould you provide these details so I can search for the information you're looking for?",
+ "correct": false,
+ "cost": 0.0018799999999998818,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What is the number of points Fowles scored in the game?"
+  },
+  {
+   "role": "assistant",
+   "content": "I need more context to answer your question. You're asking about \"the game\" and \"Fowles,\" but I need to know:\n\n1. Which Fowles are you referring to? (There are several athletes with that surname)\n2. Which specific game are you asking about?\n3. What sport?\n\nCould you provide these details so I can search for the information you're looking for?",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

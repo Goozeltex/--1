@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-37",
+  "source": "fresh",
+  "question": "On what date did resident doctors in England announce a four-day strike in June 2026?",
+  "answer": "15 June",
+  "evidence": "Resident doctors in England announce a four-day strike from 7am on 15 June, their 16th strike action over a pay dispute.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "I need to find information about resident doctors in England announcing a four-day strike in June 2026.\n\nLet me think about this. My knowledge cutoff is early 2025, so I don't have information about events in 2026. I cannot accurately answer this question about a future event from my perspective.\n\nFINAL: I don't have information about events in June 2026, as this is beyond my knowledge cutoff.",
+ "correct": false,
+ "cost": 0.0018119999999999942,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "On what date did resident doctors in England announce a four-day strike in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I need to find information about resident doctors in England announcing a four-day strike in June 2026.\n\nLet me think about this. My knowledge cutoff is early 2025, so I don't have information about events in 2026. I cannot accurately answer this question about a future event from my perspective.\n\nFINAL: I don't have information about events in June 2026, as this is beyond my knowledge cutoff.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}
