@@ -1,0 +1,37 @@
+services:
+  milvus:
+    image: milvusdb/milvus:v2.6.24
+    container_name: milvus
+    command: ["milvus", "run", "standalone"]
+    security_opt:
+      - seccomp:unconfined
+    environment:
+      DEPLOY_MODE: STANDALONE
+      ETCD_USE_EMBED: "true"
+      ETCD_DATA_DIR: /var/lib/milvus/etcd
+      ETCD_CONFIG_PATH: /milvus/configs/embedEtcd.yaml
+      COMMON_STORAGETYPE: local
+    volumes:
+      - milvus:/var/lib/milvus
+      - ./embedEtcd.yaml:/milvus/configs/embedEtcd.yaml
+    ports:
+      - "19530:19530"
+      - "9091:9091"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9091/healthz"]
+      interval: 15s
+      start_period: 60s
+      timeout: 210s
+      retries: 35
+  attu:
+    image: zilliz/attu:v2.6.5
+    container_name: attu
+    profiles: ["ui"]
+    environment:
+      MILVUS_URL: milvus:19530
+    ports:
+      - "8000:3000"  
+    depends_on:
+      - milvus  
+volumes:
+  milvus:

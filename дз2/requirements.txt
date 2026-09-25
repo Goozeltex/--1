@@ -1,0 +1,7 @@
+requests
+python-dotenv
+numpy
+pandas
+matplotlib
+jupyter
+pymilvus
