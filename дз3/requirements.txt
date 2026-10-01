@@ -1,0 +1,12 @@
+requests
+python-dotenv
+numpy
+pandas
+matplotlib
+jupyter
+pymilvus
+pypdf
+httpx,
+langgraph, 
+langchain,
+langchain-openai
